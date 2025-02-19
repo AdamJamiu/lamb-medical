@@ -1,6 +1,6 @@
 // app/layout.js
 import type { Metadata } from "next";
-import { Poppins, Rubik, Work_Sans } from "next/font/google";
+import { Nunito_Sans, Rubik, Work_Sans } from "next/font/google";
 import Navbar from "./components/Templates/Navbar";
 import Footer from "./components/Templates/Footer";
 import AOSInitializer from "./components/AOSInitializer"; // Import the AOS initializer

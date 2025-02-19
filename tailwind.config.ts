@@ -10,7 +10,7 @@ export default {
     fontFamily: {
       rubik: "var(--font-rubik), serif",
       work_sans: "var(--font-work_sans), serif",
-      poppins: "var(--font-poppins), serif",
+      nunito: "var(font-nunito)",
     },
     container: {
       padding: "1rem",
