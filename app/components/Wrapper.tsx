@@ -18,8 +18,8 @@ const Wrapper = ({
   return React.createElement(
     as,
     {
-      className: `max-w-default mx-auto ${
-        fluid ? "w-full" : "w-full px-[1rem] lg:px-[4.6rem]"
+      className: `max-w-default mx-auto pt-[10rem] ${
+        fluid ? "w-full" : "w-full px-[1rem] lg:px-[4.6rem] pt-[10rem]"
       } ${className}`,
       id,
     },
