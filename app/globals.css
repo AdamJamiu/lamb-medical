@@ -2,10 +2,46 @@
 @tailwind components;
 @tailwind utilities;
 
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
-body {}
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --font-rubik: "Rubik", serif;
+  --font-poppins: "Poppins", serif;
+  --font-work_sans: "Work Sans", serif;
+  scroll-behavior: smooth;
+}
 
-/* app/globals.css */
+html {
+  font-size: 62.5%;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  font-size: 1.6rem;
+  scroll-padding-top: 100px;
+  background: var(--background);
+  color: var(--foreground);
+
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}
+
 @keyframes spin {
   0% {
     transform: rotate(0deg);
@@ -25,9 +61,4 @@ body {}
   width: 60px;
   height: 60px;
   animation: spin 1s linear infinite;
-}
-
-html {
-  scroll-padding-top: 100px;
-  /* Adjust this value to match the height of your navbar */
 }

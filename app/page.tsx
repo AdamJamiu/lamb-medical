@@ -2,6 +2,7 @@ import Image from "next/image";
 import GetInTouch from "./components/GetInTouch";
 import HeroSection from "./components/HeroSection";
 import empowering from "/2.png";
+import Wrapper from "./components/Wrapper";
 
 export default function Home() {
   return (
@@ -9,7 +10,7 @@ export default function Home() {
       <HeroSection />
 
       {/* Empowering your look */}
-      <section className="w-full p-5 sm:p-10 md:p-14">
+      <Wrapper className="w-full p-5 sm:p-10 md:p-14">
         <div className="w-full max-w-[1500px] grid md:grid-cols-2 gap-10 lg:gap-20 xl:gap-32 2xl:gap-48">
           <div className="w-full my-auto">
             <h1
@@ -44,7 +45,7 @@ export default function Home() {
             alt="empowering"
           />
         </div>
-      </section>
+      </Wrapper>
 
       <GetInTouch />
     </section>
