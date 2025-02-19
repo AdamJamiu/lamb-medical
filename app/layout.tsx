@@ -1,6 +1,6 @@
 // app/layout.js
 import type { Metadata } from "next";
-import { Nunito_Sans, Rubik, Work_Sans } from "next/font/google";
+import { Nunito_Sans, Poppins, Rubik, Work_Sans } from "next/font/google";
 import Navbar from "./components/Templates/Navbar";
 import Footer from "./components/Templates/Footer";
 import AOSInitializer from "./components/AOSInitializer"; // Import the AOS initializer
@@ -37,6 +37,13 @@ const nunito_sans = Nunito_Sans({
   weight: ["300", "400", "500", "600", "700", "800", "900", "200"],
 });
 
+const poppins = Poppins({
+  variable: "--font-poppins",
+  display: "swap",
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700", "800", "900", "200"],
+});
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -45,7 +52,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${workSans.variable} ${rubik.variable} ${nunito_sans.variable}`}
+        className={`${workSans.variable} ${rubik.variable} ${nunito_sans.variable} ${poppins.variable}`}
       >
         <Navbar />
         <ToastContainer
