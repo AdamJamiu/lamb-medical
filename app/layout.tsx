@@ -1,25 +1,19 @@
 // app/layout.js
 import type { Metadata } from "next";
-import {
-  Bricolage_Grotesque,
-  Poppins,
-  Rubik,
-  Work_Sans,
-} from "next/font/google";
+import { Poppins, Rubik, Work_Sans } from "next/font/google";
 import Navbar from "./components/Templates/Navbar";
 import Footer from "./components/Templates/Footer";
 import AOSInitializer from "./components/AOSInitializer"; // Import the AOS initializer
 import Preloader from "./components/Preloader";
 import { ToastContainer } from "react-toastify";
-import Script from "next/script";
 import "aos/dist/aos.css"; // Import AOS CSS
 import "./globals.css";
 import "react-toastify/dist/ReactToastify.css";
 
 export const metadata: Metadata = {
-  title: "VY Construction",
+  title: "Lamb Medical Aestheics",
   description:
-    "Wood rot can silently weaken the structure of your home, leading to costly repairs if left untreated. Our expert team specializes in identifying and repairing wood rot damage, ensuring your home stays strong, safe, and looking its best.",
+    "Our commitment is to provide a highly personalized healthcare experience. From routine checkups to complex medical needs, Lamb Medicals offers services tailored to your unique requirements. Our expert team of dedicated professionals takes the time to understand you, delivering exceptional care with compassion and precision.",
 };
 
 const workSans = Work_Sans({
@@ -50,8 +44,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      {/* <!-- Google tag (gtag.js) --> */}
-
       <body
         className={`${workSans.variable} ${rubik.variable} ${poppins.variable}`}
       >
