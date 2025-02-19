@@ -45,7 +45,7 @@ const GetInTouch = () => {
   };
 
   return (
-    <section className="w-full p-5 pb-5 mt-10">
+    <section className="w-full p-5 py-20">
       <div className="w-full mx-auto max-w-6xl flex flex-col md:flex-row gap-7 md:gap-10 lg:gap-20 xl:gap-28">
         <div className="w-full">
           <h1

@@ -24,11 +24,9 @@ export default {
       fontFamily: {
         rubik: "var(--font-rubik)",
         work_sans: "var(--font-work_sans)",
-        poppins: "var(--font-poppins)",
+        nunito: "var(font-nunito)",
       },
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
         primary: "#656EE8",
       },
       backgroundImage: {

@@ -2,6 +2,7 @@
 import type { Metadata } from "next";
 import {
   Bricolage_Grotesque,
+  Nunito_Sans,
   Poppins,
   Rubik,
   Work_Sans,
@@ -36,11 +37,11 @@ const rubik = Rubik({
   weight: ["300", "400", "500", "600", "700", "800", "900"],
 });
 
-const poppins = Poppins({
-  variable: "--font-poppins",
+const nunito_sans = Nunito_Sans({
+  variable: "--font-nunito",
   display: "swap",
   subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700", "800", "900", "100", "200"],
+  weight: ["300", "400", "500", "600", "700", "800", "900", "200"],
 });
 
 export default function RootLayout({
@@ -50,10 +51,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      {/* <!-- Google tag (gtag.js) --> */}
-
       <body
-        className={`${workSans.variable} ${rubik.variable} ${poppins.variable}`}
+        className={`${workSans.variable} ${rubik.variable} ${nunito_sans.variable}`}
       >
         <Navbar />
         <ToastContainer
