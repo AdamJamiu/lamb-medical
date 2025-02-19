@@ -46,7 +46,7 @@ const GetInTouch = () => {
 
   return (
     <section className="w-full p-5 py-20">
-      <div className="w-full mx-auto max-w-6xl flex flex-col md:flex-row gap-7 md:gap-10 lg:gap-20 xl:gap-28">
+      <div className="w-full mx-auto max-w-[1200px] flex flex-col md:flex-row gap-7 md:gap-10 lg:gap-20 xl:gap-28">
         <div className="w-full">
           <h1
             data-aos="fade-up"
@@ -81,38 +81,39 @@ const GetInTouch = () => {
             data-aos="fade-up"
           />
         </div>
-        <form
-          data-aos="fade-up"
-          onSubmit={sendEmail}
-          className="w-full space-y-5 font-work_sans"
-        >
-          <input
-            className="px-4 py-3.5 w-full bg-[#FAFAFA] border border-[#0000000A] text-[#8E9BAE] rounded-md"
-            placeholder="Name"
-            name="name"
-          />
-          <input
-            className="px-4 py-3.5 w-full bg-[#FAFAFA] border border-[#0000000A] text-[#8E9BAE] rounded-md"
-            placeholder="Email address"
-            type="email"
-            name="email"
-          />
-          <input
-            className="px-4 py-3.5 w-full bg-[#FAFAFA] border border-[#0000000A] text-[#8E9BAE] rounded-md"
-            placeholder="Desired services"
-            name="service"
-          />
-          <textarea
-            rows={4}
-            className="px-4 py-3.5 w-full bg-[#FAFAFA] border border-[#0000000A] text-[#8E9BAE] rounded-md"
-            placeholder="Message"
-            name="service"
-          />
+        <div data-aos="fade-up">
+          <form
+            onSubmit={sendEmail}
+            className="w-full space-y-5 font-work_sans"
+          >
+            <input
+              className="px-4 py-3.5 w-full bg-[#FAFAFA] border border-[#0000000A] text-[#8E9BAE] rounded-xl outline-none focus:outline-grey-100"
+              placeholder="Name"
+              name="name"
+            />
+            <input
+              className="px-4 py-3.5 w-full bg-[#FAFAFA] border border-[#0000000A] text-[#8E9BAE] rounded-xl outline-none focus:outline-grey-100"
+              placeholder="Email address"
+              type="email"
+              name="email"
+            />
+            <input
+              className="px-4 py-3.5 w-full bg-[#FAFAFA] border border-[#0000000A] text-[#8E9BAE] rounded-xl outline-none focus:outline-grey-100"
+              placeholder="Desired services"
+              name="service"
+            />
+            <textarea
+              rows={4}
+              className="px-4 py-3.5 w-full bg-[#FAFAFA] border border-[#0000000A] text-[#8E9BAE] rounded-xl outline-none focus:outline-grey-100"
+              placeholder="Message"
+              name="service"
+            />
 
-          <button className="h-12 w-full bg-primary text-white font-medium font-poppins rounded-md transition">
-            Submit
-          </button>
-        </form>
+            <button className="h-16 w-full bg-primary text-white font-medium font-poppins rounded-xl transition outline-none focus:outline-grey-100">
+              Submit
+            </button>
+          </form>
+        </div>
       </div>
     </section>
   );
