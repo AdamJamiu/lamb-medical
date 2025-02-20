@@ -3,7 +3,7 @@ export interface IFaq {
   content: string;
 }
 
-export const faq: IFaq[] = [
+export const home_faq: IFaq[] = [
   {
     title: "What is a concierge practice?",
     content:

@@ -7,6 +7,7 @@ import FAQ from "./components/Templates/FAQ";
 import Questions from "./components/Templates/Questions";
 import MeetTheTeam from "./components/Templates/MeetTheTeam";
 import OurServices from "./components/Templates/OurServices";
+import { home_faq } from "./data/faq";
 
 export default function Home() {
   return (
@@ -56,7 +57,7 @@ export default function Home() {
       <OurServices />
       <MeetTheTeam />
       <Questions />
-      <FAQ />
+      <FAQ data={home_faq} />
       <GetInTouch />
     </section>
   );
