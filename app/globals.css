@@ -11,6 +11,7 @@
 }
 
 :root {
+  --max-width: 1728px;
   --background: #ffffff;
   --foreground: #171717;
   --font-rubik: "Rubik", serif;
