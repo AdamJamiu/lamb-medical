@@ -16,7 +16,7 @@ export default function ServicesTab() {
   const pathname = usePathname();
 
   return (
-    <Wrapper as="ul" className="flex items-center gap-[4.5rem] py-[2.4rem]">
+    <Wrapper as="ul" className="flex items-center gap-[4.5rem] py-[2.7rem]">
       {tabItems.map((tab) => (
         <li
           key={tab.href}

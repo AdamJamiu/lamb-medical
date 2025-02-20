@@ -1,17 +1,19 @@
+import Wrapper from "@/app/components/Wrapper";
 import Image from "next/image";
 
 export default function ServicesHero() {
   return (
-    <section className=" pt-[8rem] grid grid-cols-2 grid-rows-[77.1rem] bg-primary items-center">
-      <div className="size-full relative" data-aos="fade-right">
+    <section className="grid grid-cols-2 grid-rows-[77.1rem] items-center gap-[8.2rem] bg-primary pt-[8rem]">
+      <div className="relative size-full" data-aos="fade-right">
         <Image
-          src="/pngs/energy-devices-image.png"
+          src="/images/energy-devices/energy-devices-image.png"
           alt="facial-services-image"
           className="absolute object-cover"
           fill
         />
       </div>
-      <div className="text-white grid place-content-center mx-auto  md:w-[57.4rem] space-y-[2.4rem]">
+
+      <div className="grid space-y-[2.4rem] pr-[4rem] text-white md:w-[57.4rem]">
         <h2
           className="font-rubik text-10xl font-semibold leading-[7rem]"
           data-aos="fade-up"
@@ -19,7 +21,7 @@ export default function ServicesHero() {
           Energy devices
         </h2>
         <p
-          className="text-lg leading-[3.5rem] tracking-[0.02em] font-medium font-work_sans opacity-80 "
+          className="font-work_sans text-lg font-medium leading-[3.5rem] tracking-[0.02em] opacity-80"
           data-aos="fade-left"
         >
           Laser resurfacing rejuvenates the skin by using advanced laser
