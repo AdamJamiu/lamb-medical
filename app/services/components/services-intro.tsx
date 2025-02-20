@@ -18,7 +18,7 @@ export default function ServicesIntro({
         {title}
       </h3>
 
-      <p className="text-grey-800 font-work_sans text-[2.32rem] font-medium leading-[4.5rem] tracking-[0.02rem] opacity-80">
+      <p className="text-grey-750 font-work_sans text-[2.32rem] font-medium leading-[4.5rem] tracking-[0.02rem] opacity-80">
         {description}
       </p>
       <BookNowButton>Book Now</BookNowButton>

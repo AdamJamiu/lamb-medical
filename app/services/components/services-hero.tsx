@@ -1,4 +1,3 @@
-import Wrapper from "@/app/components/Wrapper";
 import Image from "next/image";
 
 interface ServicesHeroProps {

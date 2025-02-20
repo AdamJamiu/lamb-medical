@@ -3,6 +3,7 @@ import Image from "next/image";
 import ServicesIntro from "../../components/services-intro";
 import ServicesAfterEffects from "../../components/services-after-effects";
 import ServicesFAQ from "../../components/services-faq";
+import { miconeedlingFAQs } from "@/app/utils/data";
 
 export default function Miconeedling() {
   return (
@@ -24,7 +25,7 @@ export default function Miconeedling() {
         />
       </figure>
       <p
-        className="text-grey-800 font-work_sans text-lg font-medium leading-[4rem] tracking-[0.02em] text-opacity-80"
+        className="text-grey-750 font-work_sans text-lg font-medium leading-[4rem] tracking-[0.02em] text-opacity-80"
         data-aos="fade-right"
       >
         At Lamb Medical we utilize the Endymed Pure system which is far superior
@@ -65,6 +66,7 @@ export default function Miconeedling() {
       <ServicesFAQ
         title="Microneedling FAQs: Your questions answered"
         description="Curious about Microneedling? Get answers to common questions about how it works, what to expect, and how it can help you feel confident"
+        faqs={miconeedlingFAQs}
       />
     </Wrapper>
   );

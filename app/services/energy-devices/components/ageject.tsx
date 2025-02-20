@@ -1,11 +1,10 @@
 import Wrapper from "@/app/components/Wrapper";
-import BookNowButton from "../../components/book-now-button";
 import Image from "next/image";
 import ServicesIntro from "../../components/services-intro";
 import ServicesBenefits from "../../components/services-benefits";
 import ServicesAfterEffects from "../../components/services-after-effects";
 import ServicesFAQ from "../../components/services-faq";
-import { agejectBenefits } from "@/app/utils/data";
+import { agejectBenefits, agejectFAQs } from "@/app/utils/data";
 
 export default function AgeJect() {
   return (
@@ -62,6 +61,7 @@ export default function AgeJect() {
         title="AgeJet FAQs: Your questions answered"
         description="Curious about AgeJet? Get answers to common questions about how it
         works, what to expect, and how it can help you feel confident"
+        faqs={agejectFAQs}
       />
     </Wrapper>
   );

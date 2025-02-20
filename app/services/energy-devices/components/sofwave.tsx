@@ -4,7 +4,11 @@ import ServicesIntro from "../../components/services-intro";
 import ServicesBenefits from "../../components/services-benefits";
 import ServicesAfterEffects from "../../components/services-after-effects";
 import ServicesFAQ from "../../components/services-faq";
-import { sofwaveBenefits, sofwaveSatisfactions } from "@/app/utils/data";
+import {
+  sofwaveBenefits,
+  sofwaveFAQs,
+  sofwaveSatisfactions,
+} from "@/app/utils/data";
 
 export default function Sofwave() {
   return (
@@ -35,7 +39,7 @@ export default function Sofwave() {
         benefits={sofwaveSatisfactions}
       />
       <p
-        className="text-grey-800 font-work_sans text-md font-medium leading-[4rem] tracking-[0.02em] text-opacity-80"
+        className="text-grey-750 font-work_sans text-md font-medium leading-[4rem] tracking-[0.02em] text-opacity-80"
         data-aos="fade-right"
       >
         Sofwave™is an FDA cleared, non-invasive treatment of fine lines and
@@ -84,6 +88,7 @@ export default function Sofwave() {
       <ServicesFAQ
         title="Sofwave FAQs: Your questions answered"
         description="Curious about Sofwave? Get answers to common questions about how it works, what to expect, and how it can help you feel confident"
+        faqs={sofwaveFAQs}
       />
     </Wrapper>
   );
