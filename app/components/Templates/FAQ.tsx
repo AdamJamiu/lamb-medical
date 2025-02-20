@@ -8,10 +8,10 @@ import { IoIosCloseCircle } from "react-icons/io";
 
 const FAQ = () => {
   return (
-    <section className="w-full py-10 px-5 md:py-20 lg:py-32 bg-white">
+    <section className="w-full bg-white py-10 md:py-20">
       <div
         data-aos="fade-up"
-        className="w-full mx-auto max-w-[1200px] flex flex-col gap-7 md:gap-10 divide-y-[0.4px] divide-[#D9D9D9]"
+        className="flex w-full max-w-[1200px] flex-col gap-7 divide-y-[0.4px] divide-[#D9D9D9] md:gap-10"
       >
         {faq.map((item: IFaq, index) => (
           <FaqItemButton item={item} key={index} />
@@ -38,31 +38,31 @@ const FaqItemButton = ({ item }: { item: IFaq }) => {
 
   return (
     <div ref={contentRef} className={`${isExpanded ? "" : "pb-8"} w-full pt-5`}>
-      <div className="w-full flex justify-between items-center gap-3">
-        <p className="text-grey-700 font-rubik text-sm md:text-base lg:text-lg font-medium">
+      <div className="flex w-full items-center justify-between gap-3">
+        <p className="font-rubik text-sm font-medium text-grey-700 md:text-base lg:text-lg">
           {item.title}
         </p>
         <button
-          className="lg:w-[35px] lg:h-[35px] w-[30px] h-[30px]"
+          className="h-[30px] w-[30px] lg:h-[35px] lg:w-[35px]"
           onClick={handleToggle}
         >
           {!isExpanded ? (
             <IoAddCircleSharp className="h-full w-full" />
           ) : (
-            <IoIosCloseCircle className="w-full h-full" />
+            <IoIosCloseCircle className="h-full w-full" />
           )}
         </button>
       </div>
 
       <div
-        className="w-full transition-[max-height] max-h-max ease duration-300 overflow-hidden"
+        className="ease max-h-max w-full overflow-hidden transition-[max-height] duration-300"
         style={{
           height: isExpanded ? `${height}px` : "0px",
         }}
       >
         <div
           ref={contentRef}
-          className="w-full py-4 md:pr-7 lg:pr-10 xl:pr-16 text-[#55534E] font-medium text-sm sm:text-sm md:text-base"
+          className="w-full py-4 text-sm font-medium text-[#55534E] sm:text-sm md:pr-7 md:text-base lg:pr-10 xl:pr-16"
         >
           <p>{item.content}</p>
         </div>

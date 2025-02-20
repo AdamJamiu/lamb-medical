@@ -63,7 +63,7 @@ export default function RootLayout({
         <Preloader />
         <AOSInitializer /> {/* Initialize AOS */}
         {children}
-        {/* <Footer /> */}
+        <Footer />
       </body>
     </html>
   );
