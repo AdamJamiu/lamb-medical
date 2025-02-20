@@ -6,6 +6,7 @@ import Wrapper from "./components/Wrapper";
 import FAQ from "./components/Templates/FAQ";
 import Questions from "./components/Templates/Questions";
 import MeetTheTeam from "./components/Templates/MeetTheTeam";
+import OurServices from "./components/Templates/OurServices";
 
 export default function Home() {
   return (
@@ -52,6 +53,7 @@ export default function Home() {
         </div>
       </Wrapper>
 
+      <OurServices />
       <MeetTheTeam />
       <Questions />
       <FAQ />
