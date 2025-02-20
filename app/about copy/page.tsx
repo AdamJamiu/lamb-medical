@@ -1,43 +1,39 @@
 import Image from "next/image";
-import GetInTouch from "./components/GetInTouch";
-import HeroSection from "./components/HeroSection";
-import empowering from "/2.png";
-import Wrapper from "./components/Wrapper";
-import FAQ from "./components/Templates/FAQ";
-import Questions from "./components/Templates/Questions";
-import MeetTheTeam from "./components/Templates/MeetTheTeam";
-import OurServices from "./components/Templates/OurServices";
-import { home_faq } from "./data/faq";
-// import { BiCheck } from "react-icons/bi";
-// import { lamb_differences } from "./data/lamb_differences";
-// import BookNowButton from "./services/components/book-now-button";
-import ExperienceLamb from "./components/ExperienceLamb";
-import WallOfLove from "./components/WallOfLove";
+import GetInTouch from "../components/GetInTouch";
+import HeroSection from "../components/HeroSection";
+import Wrapper from "../components/Wrapper";
+import FAQ from "../components/Templates/FAQ";
+import Questions from "../components/Templates/Questions";
+import MeetTheTeam from "../components/Templates/MeetTheTeam";
+import OurServices from "../components/Templates/OurServices";
+import { home_faq } from "../data/faq";
+import ExperienceLamb from "../components/ExperienceLamb";
+import WallOfLove from "../components/WallOfLove";
 
-export default function Home() {
+export default function Page() {
   return (
     <section className="overflow-hidden pt-16">
       <HeroSection />
 
       {/* Empowering your look */}
       <Wrapper className="w-full p-5 sm:p-10 md:p-14">
-        <div className="w-full max-w-[1500px] grid lg:grid-cols-2 gap-10 lg:gap-20 xl:gap-32 2xl:gap-48">
-          <div className="w-full my-auto">
+        <div className="grid w-full max-w-[1500px] gap-10 lg:grid-cols-2 lg:gap-20 xl:gap-32 2xl:gap-48">
+          <div className="my-auto w-full">
             <h1
               data-aos="fade-up"
-              className="text-[#12121299] md:block hidden font-rubik font-semibold text-6xl leading-tight"
+              className="hidden font-rubik text-6xl font-semibold leading-tight text-[#12121299] md:block"
             >
               Empowering Your Journey To Look And Feel Your Best
             </h1>
             <h1
               data-aos="fade-up"
-              className="md:hidden block text-[#12121299] font-rubik font-semibold text-xl sm:text-2xl md:text-3xl lg:text-4xl leading-loose"
+              className="block font-rubik text-xl font-semibold leading-loose text-[#12121299] sm:text-2xl md:hidden md:text-3xl lg:text-4xl"
             >
               Empowering Your Journey To Look And Feel Your Best
             </h1>
             <p
               data-aos="fade-up"
-              className="text-[#12121299] mt-6 text-base md:text-lg lg:text-xl font-work_sans"
+              className="mt-6 font-work_sans text-base text-[#12121299] md:text-lg lg:text-xl"
             >
               Our commitment is to provide a highly personalized healthcare
               experience. From routine checkups to complex medical needs, Lamb
@@ -52,14 +48,14 @@ export default function Home() {
               src="/2.png"
               width={1000}
               height={1000}
-              className="w-full h-full"
+              className="h-full w-full"
               alt="empowering"
             />
           </div>
         </div>
       </Wrapper>
 
-          {/* Experience the lamb look */}
+      {/* Experience the lamb look */}
       <ExperienceLamb />
 
       <OurServices />
