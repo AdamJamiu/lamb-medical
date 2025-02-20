@@ -29,7 +29,7 @@ const OurServices = () => {
 
         <h2
           data-aos="fade-up"
-          className="mt-5 font-work_sans leading-loose text-[#12121299] md:text-lg lg:w-[77%]"
+          className="mt-5 font-work_sans leading-loose text-[#12121299] md:text-lg lg:w-[70%] xl:w-[60%]"
         >
           Discover our range of innovative solutions designed to support your
           health, wellness, and confidence.
@@ -42,7 +42,7 @@ const OurServices = () => {
           {isExpanded ? "See Less" : "See all services"}
         </button>
 
-        <div className="mt-14 grid w-full grid-cols-1 gap-10 sm:grid-cols-2 md:grid-cols-3">
+        <div className="mt-28 grid w-full grid-cols-1 gap-10 sm:grid-cols-2 md:grid-cols-3">
           {services.map((item, index) => (
             <ServiceCard
               key={index}
