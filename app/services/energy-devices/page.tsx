@@ -9,7 +9,14 @@ import Miconeedling from "./components/miconeedling";
 export default function page() {
   return (
     <Fragment>
-      <ServicesHero />
+      <ServicesHero
+        image="energy-devices-image.png"
+        title="Energy devices"
+        description=" Laser resurfacing rejuvenates the skin by using advanced laser
+          technology to reduce wrinkles, scars, and uneven texture while
+          stimulating collagen production. This treatment offers a non-invasive
+          solution for achieving smoother, firmer skin with minimal downtime."
+      />
       <ServicesTab />
       <AgeJect />
       <Sofwave />
