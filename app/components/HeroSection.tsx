@@ -1,8 +1,6 @@
 "use client";
 
 import React, { useState } from "react";
-import emailjs from "emailjs-com";
-import { toast } from "react-toastify";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -10,31 +8,30 @@ const HeroSection = () => {
   const [phone, setPhone] = useState("");
   const [loading, setLoading] = useState(false);
 
-  const sendEstimationRequest = async (e: { preventDefault: () => void }) => {
-    e.preventDefault();
+  //   e.preventDefault();
 
-    setLoading(true);
+  //   setLoading(true);
 
-    emailjs
-      .send(
-        "service_6gs5319",
-        "template_0lzto0f",
-        { phone },
-        "apQJg2DtjcCfWOzGP"
-      )
-      .then(
-        (response) => {
-          console.log("SUCCESS!", response.status, response.text);
-          setLoading(false);
-          setPhone("");
-          toast.success("Request sent successfully!");
-        },
-        (error) => {
-          console.log("FAILED...", error);
-          setLoading(false);
-        }
-      );
-  };
+  //   emailjs
+  //     .send(
+  //       "service_6gs5319",
+  //       "template_0lzto0f",
+  //       { phone },
+  //       "apQJg2DtjcCfWOzGP"
+  //     )
+  //     .then(
+  //       (response) => {
+  //         console.log("SUCCESS!", response.status, response.text);
+  //         setLoading(false);
+  //         setPhone("");
+  //         toast.success("Request sent successfully!");
+  //       },
+  //       (error) => {
+  //         console.log("FAILED...", error);
+  //         setLoading(false);
+  //       }
+  //     );
+  // };
   return (
     <section className="relative bg-home_hero min-h-screen h-full bg-no-repeat bg-center md:bg-cover flex flex-col justify-center items-center">
       {/* <div className="absolute inset-0 bg-black opacity-5"></div> */}
@@ -62,7 +59,10 @@ const HeroSection = () => {
           doctor and the attention you deserve.
         </p>
 
-        <div className="flex mx-auto self-center h-max justify-center items-center gap-3 mt-8 font-poppins font-semibold">
+        <div
+          data-aos="fade-up"
+          className="flex mx-auto self-center h-max justify-center items-center gap-3 mt-8 font-poppins font-semibold"
+        >
           <Link href="#">
             <button className="text-white h-20 px-12 md:px-14 rounded-md bg-primary transition hover:opacity-70 sm:text-base text-sm">
               Gift Cards

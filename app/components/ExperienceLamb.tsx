@@ -11,7 +11,7 @@ const ExperienceLamb = () => {
   const [isExpanded, setIsExpanded] = useState(false);
   const first_four_differences = lamb_differences.slice(0, 4);
   const [lambDifferences, setLambDifferences] = useState(
-    first_four_differences,
+    first_four_differences
   );
 
   useEffect(() => {
@@ -56,7 +56,7 @@ const ExperienceLamb = () => {
 
           <div
             data-aos="fade-up"
-            className="mt-10 grid w-full grid-cols-1 gap-5 gap-y-8 font-rubik sm:grid-cols-2"
+            className="mt-10 grid w-full sm:grid-cols-1 gap-5 gap-y-8 font-rubik md:grid-cols-2"
           >
             {lambDifferences.map((item, index) => (
               <div
