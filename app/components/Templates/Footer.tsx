@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="bg-primary p-5 md:p-10 lg:p-14 text-white font-work_sans w-full">
+    <footer className="bg-primary px-5 pt-14 pb-10 md:p-10 lg:p-14 text-white font-work_sans w-full">
       <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-5 sm:gap-7 lg:gap-10 xl:gap-20 gap-y-10 w-full">
         <div className="w-full">
           <img src="/lamb-medical-footer-logo.svg" alt="lamb medical logo" />
@@ -88,7 +88,7 @@ const Footer = () => {
       </div>
 
       <div className="w-full pt-16 pb-10 text-center border-white border-t mt-10">
-        <p className="text-white text-sm lg:text-base">
+        <p className="text-white text-xs sm:text-sm lg:text-base">
           Copyright © 2025 Lamb Medical all rights reserved
         </p>
       </div>

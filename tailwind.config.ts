@@ -11,6 +11,7 @@ export default {
       rubik: "var(--font-rubik), serif",
       work_sans: "var(--font-work_sans), serif",
       nunito: "var(font-nunito)",
+      poppins: "var(--font-poppins)",
     },
     container: {
       padding: "1rem",

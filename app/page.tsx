@@ -3,6 +3,9 @@ import GetInTouch from "./components/GetInTouch";
 import HeroSection from "./components/HeroSection";
 import empowering from "/2.png";
 import Wrapper from "./components/Wrapper";
+import FAQ from "./components/Templates/FAQ";
+import Questions from "./components/Templates/Questions";
+import MeetTheTeam from "./components/Templates/MeetTheTeam";
 
 export default function Home() {
   return (
@@ -11,7 +14,7 @@ export default function Home() {
 
       {/* Empowering your look */}
       <Wrapper className="w-full p-5 sm:p-10 md:p-14">
-        <div className="w-full max-w-[1500px] grid md:grid-cols-2 gap-10 lg:gap-20 xl:gap-32 2xl:gap-48">
+        <div className="w-full max-w-[1500px] grid lg:grid-cols-2 gap-10 lg:gap-20 xl:gap-32 2xl:gap-48">
           <div className="w-full my-auto">
             <h1
               data-aos="fade-up"
@@ -27,7 +30,7 @@ export default function Home() {
             </h1>
             <p
               data-aos="fade-up"
-              className="text-[#12121299] mt-6 text-base md:text-lg lg:text-xl"
+              className="text-[#12121299] mt-6 text-base md:text-lg lg:text-xl font-work_sans"
             >
               Our commitment is to provide a highly personalized healthcare
               experience. From routine checkups to complex medical needs, Lamb
@@ -37,16 +40,21 @@ export default function Home() {
               precision.
             </p>
           </div>
-          <Image
-            src="/2.png"
-            width={1000}
-            height={1000}
-            className="w-full h-full"
-            alt="empowering"
-          />
+          <div data-aos="fade-up">
+            <Image
+              src="/2.png"
+              width={1000}
+              height={1000}
+              className="w-full h-full"
+              alt="empowering"
+            />
+          </div>
         </div>
       </Wrapper>
 
+      <MeetTheTeam />
+      <Questions />
+      <FAQ />
       <GetInTouch />
     </section>
   );
