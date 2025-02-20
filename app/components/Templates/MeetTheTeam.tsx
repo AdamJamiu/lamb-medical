@@ -42,18 +42,18 @@ const MeetTheTeam = () => {
         <div className="w-full p-5 sm:p-10 md:p-14 max-w-[1400px] mx-auto">
           <h1
             data-aos="fade-up"
-            className="text-[#12121299] md:block hidden font-rubik font-semibold text-6xl leading-tight"
+            className="text-[#12121299] font-rubik font-semibold text-2xl sm:text-3xl md:text-5xl lg:text-6xl leading-tight"
           >
             Meet the Team
           </h1>
-          <h1
+          <h2
             data-aos="fade-up"
-            className="text-[#12121299] font-work_sans text-lg leading-loose lg:w-[77%] mt-5"
+            className="text-[#12121299] font-work_sans md:text-lg leading-loose lg:w-[77%] mt-5"
           >
             Get to know the passionate professionals behind Lamb Medical. Our
             team is dedicated to delivering personalized, concierge-style care
             designed around you.
-          </h1>
+          </h2>
         </div>
         <div
           data-aos="fade-up"
