@@ -1,5 +1,38 @@
 import { IFaq } from "../data/faq";
 
+export const aquaGoldFAQs: IFaq[] = [
+  {
+    title: "What are the advantages of AQUAGOLD® fine touch™?",
+    content:
+      "A concierge practice (also called concierge medicine or membership-based healthcare) is a healthcare model where patients pay a monthly or annual retainer fee to a doctor or medical practice in exchange for enhanced, personalized care. This model typically allows for longer appointment times, direct access to physicians, same-day or next-day appointments, and more comprehensive",
+  },
+  {
+    title: "What is the size of the microchannels?",
+    content: "",
+  },
+  {
+    title: "How many microchannels are there? ",
+    content: "",
+  },
+  {
+    title: "How is AQUAGOLD® fine touch™ different from microneedle devices?",
+    content: "",
+  },
+  {
+    title: "Can AQUAGOLD® fine touch™ be used multiple times?",
+    content: "",
+  },
+  {
+    title:
+      "Why are the AQUAGOLD® fine touch™ microchannels made of gold-plated stainless steel?",
+    content: "",
+  },
+  {
+    title: "Is Aquavit Life Sciences Inc. an FDA registered establishment?",
+    content: "",
+  },
+];
+
 export const agejectBenefits = [
   "Loose and crepe eyelid skin (upper and lower)",
   "Fine lines",

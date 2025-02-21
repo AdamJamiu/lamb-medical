@@ -8,6 +8,7 @@ import { IoMdMenu, IoMdClose } from "react-icons/io";
 import { usePathname } from "next/navigation";
 import clsx from "clsx";
 import { FaChevronDown } from "react-icons/fa";
+import { INavItems, navItems } from "@/app/utils/nav";
 
 const Navbar = () => {
   const pathname = usePathname();
@@ -23,36 +24,6 @@ const Navbar = () => {
       document.documentElement.style.scrollPaddingTop = `${navbarHeight}px`;
     }
   }, []);
-
-  const navItems: any = [
-    { href: "/", label: "Home" },
-    { href: "/about", label: "About" },
-    {
-      href: "/services",
-      label: "Service",
-      subItems: [
-        // { href: "/services#exterior", label: "Exterior Repair" },
-        // { href: "/services#deck", label: "Deck Repairs" },
-        // { href: "/services#pergolas", label: "Pergolas & Patio Covers" },
-        // { href: "/services#siding", label: "Siding" },
-        // { href: "/services#gutter", label: "Gutter Guard" },
-      ],
-    },
-    { href: "/subcriptions", label: "Subscriptions" },
-    { href: "/schedule-online", label: "Schedule Online" },
-    { href: "/blog", label: "Blog" },
-    {
-      href: "/shop",
-      label: "Shop",
-      subItems: [
-        // { href: "/services#exterior", label: "Exterior Repair" },
-        // { href: "/services#deck", label: "Deck Repairs" },
-        // { href: "/services#pergolas", label: "Pergolas & Patio Covers" },
-        // { href: "/services#siding", label: "Siding" },
-        // { href: "/services#gutter", label: "Gutter Guard" },
-      ],
-    },
-  ];
 
   const toggleMenu = () => {
     setMenuOpen((prev) => !prev);
@@ -81,7 +52,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="fixed left-0 right-0 top-0 z-50 bg-white py-1 font-work_sans">
+    <nav className="fixed left-0 right-0 top-0 z-50 bg-white py-1 font-work_sans lg:pr-7">
       <div className="flex justify-between items-center px-6 py-3 md:py-4 md:px-8 lg:px-8">
         {/* Logo */}
         <Link href="/">
@@ -96,56 +67,8 @@ const Navbar = () => {
 
         {/* Desktop Navigation */}
         <div className="hidden lg:flex gap-14 items-center font-medium text-[#8E9BAE]">
-          {navItems.map((item: any) => (
-            <div
-              key={item.href}
-              className="relative"
-              onMouseEnter={item.subItems ? handleMouseEnter : undefined}
-              onMouseLeave={item.subItems ? handleMouseLeave : undefined}
-            >
-              <Link
-                href={item.href}
-                className={clsx(
-                  "hover:text-primary transition flex items-center gap-1",
-                  pathname === item.href
-                    ? "text-primary font-semibold"
-                    : "text-[#8E9BAE]"
-                )}
-              >
-                {item.label}
-                {item.subItems && (
-                  <FaChevronDown
-                    className={clsx(
-                      "text-sm transition-transform duration-200",
-                      servicesOpen ? "rotate-180" : "rotate-0"
-                    )}
-                  />
-                )}
-              </Link>
-              {item.subItems && servicesOpen && (
-                <div
-                  className="absolute top-full left-0 bg-white shadow-lg rounded-md mt-2 py-2 w-56"
-                  onMouseEnter={handleMouseEnter}
-                  onMouseLeave={handleMouseLeave}
-                >
-                  {item.subItems.map((subItem: any) => (
-                    <Link
-                      key={subItem.href}
-                      href={subItem.href}
-                      onClick={closeServices}
-                      className={clsx(
-                        "block px-4 py-2 hover:text-primary transition",
-                        pathname === subItem.href
-                          ? "text-primary font-semibold"
-                          : "text-[#8E9BAE]"
-                      )}
-                    >
-                      {subItem.label}
-                    </Link>
-                  ))}
-                </div>
-              )}
-            </div>
+          {navItems.map((item: INavItems, index) => (
+            <NavLink item={item} key={index} />
           ))}
         </div>
 
@@ -240,6 +163,144 @@ const Navbar = () => {
         ))}
       </div>
     </nav>
+  );
+};
+
+const NavLink = ({ item }: { item: INavItems }) => {
+  const pathname = usePathname();
+  let firstRow = item.subItems?.slice(0, 6) || [];
+  let secondRow = item.subItems?.slice(6, 12) || [];
+  let thirdRow = item.subItems?.slice(12, 18) || [];
+  let fourthRow = item.subItems?.slice(18, 24) || [];
+  const [servicesOpen, setServicesOpen] = useState(false);
+  const [hoverTimeout, setHoverTimeout] = useState<NodeJS.Timeout | null>(null);
+
+  const handleMouseEnter = () => {
+    if (hoverTimeout) {
+      clearTimeout(hoverTimeout);
+    }
+    setServicesOpen(true);
+  };
+
+  const handleMouseLeave = () => {
+    const timeout = setTimeout(() => {
+      setServicesOpen(false);
+    }, 300);
+    setHoverTimeout(timeout);
+  };
+
+  const closeServices = () => {
+    setServicesOpen(false);
+  };
+
+  return (
+    <div
+      key={item.href}
+      className="relative"
+      onMouseEnter={item.subItems ? handleMouseEnter : undefined}
+      onMouseLeave={item.subItems ? handleMouseLeave : undefined}
+    >
+      <Link
+        href={item.href}
+        className={clsx(
+          "hover:text-primary transition flex items-center gap-1",
+          pathname === item.href
+            ? "text-primary font-semibold"
+            : "text-[#8E9BAE]"
+        )}
+      >
+        {item.label}
+        {item.subItems && (
+          <FaChevronDown
+            className={clsx(
+              "text-sm transition-all duration-200",
+              servicesOpen ? "rotate-180" : "rotate-0"
+            )}
+          />
+        )}
+      </Link>
+      {item.subItems && servicesOpen && (
+        <div className="w- bg-white shadow-lg rounded-md mt-2 px-8 py-10 md:px-16 lg:py-14 lg:px-32 min-w-max fixed top-24 left-0 w-screen to z-50">
+          <h2 className="text-[#8E9BAE] text-sm md:text-base xl:text-[18px] mb-6">
+            {item.label}
+          </h2>
+          <div
+            className="w-full grid grid-cols-2 md:grid-cols-4 gap-7 lg:gap-10 xl:gap-16"
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
+          >
+            <div className="flex flex-col gap-y-7">
+              {firstRow.map((subItem: any) => (
+                <Link
+                  key={subItem.href}
+                  href={subItem.href}
+                  onClick={closeServices}
+                  className={clsx(
+                    "block py-2 hover:text-primary transition",
+                    pathname === subItem.href
+                      ? "text-primary font-semibold"
+                      : "text-[#161616]"
+                  )}
+                >
+                  {subItem.label}
+                </Link>
+              ))}
+            </div>
+            <div className="flex flex-col gap-y-7">
+              {secondRow.map((subItem: any) => (
+                <Link
+                  key={subItem.href}
+                  href={subItem.href}
+                  onClick={closeServices}
+                  className={clsx(
+                    "block px-4 py-2 hover:text-primary transition",
+                    pathname === subItem.href
+                      ? "text-primary font-semibold"
+                      : "text-[#161616]"
+                  )}
+                >
+                  {subItem.label}
+                </Link>
+              ))}
+            </div>
+            <div className="flex flex-col gap-y-7">
+              {thirdRow.map((subItem: any) => (
+                <Link
+                  key={subItem.href}
+                  href={subItem.href}
+                  onClick={closeServices}
+                  className={clsx(
+                    "block px-4 py-2 hover:text-primary transition",
+                    pathname === subItem.href
+                      ? "text-primary font-semibold"
+                      : "text-[#161616]"
+                  )}
+                >
+                  {subItem.label}
+                </Link>
+              ))}
+            </div>
+            <div className="flex flex-col gap-y-7">
+              {fourthRow.map((subItem: any) => (
+                <Link
+                  key={subItem.href}
+                  href={subItem.href}
+                  onClick={closeServices}
+                  className={clsx(
+                    "block px-4 py-2 hover:text-primary transition",
+                    pathname === subItem.href
+                      ? "text-primary font-semibold"
+                      : "text-[#161616]"
+                  )}
+                >
+                  {subItem.label}
+                </Link>
+              ))}
+            </div>
+          </div>
+        </div>
+      )}
+    </div>
   );
 };
 

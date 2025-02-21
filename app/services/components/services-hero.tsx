@@ -12,7 +12,7 @@ export default function ServicesHero({
   image,
 }: ServicesHeroProps) {
   return (
-    <section className="grid grid-cols-2 grid-rows-[77.1rem] items-center gap-[8.2rem] bg-primary pt-[8rem]">
+    <section className="grid md:grid-cols-2 grid-rows-[77.1rem] items-center gap-[8.2rem] bg-primary pt-[8rem]">
       <div className="relative size-full" data-aos="fade-right">
         <Image
           src={`/images/${image}`}

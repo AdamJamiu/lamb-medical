@@ -8,7 +8,7 @@ const Page = () => {
         alt="lady face care"
         className="min-h-screen w-screen lg:w-[50vw] lg:block hidden"
       />
-      <div className="pt-12 xl:pt-40 pb-10 px-10 md:py-20 md:pl-10 md:pr-36 lg:pr-40 xl:pr-56">
+      <div className="pt-20 xl:pt-40 pb-10 px-4 md:py-20 md:pl-10 md:pr-36 lg:pr-40 xl:pr-56">
         <h1
           data-aos="fade-up"
           className="text-[#161616] font-rubik font-semibold text-2xl md:text-3xl lg:text-[35px] xl:text-[45px] 2xl:text-[48px] w-[90%] md:block hidden"
