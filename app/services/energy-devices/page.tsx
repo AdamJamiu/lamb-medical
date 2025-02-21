@@ -6,18 +6,25 @@ import AgeJect from "./components/ageject";
 import Sofwave from "./components/sofwave";
 import Miconeedling from "./components/miconeedling";
 
-export default function page() {
+const energyDevicesTabItems = [
+  { href: "#softwave", label: "Sofwave" },
+  { href: "#ipl", label: "IPL" },
+  { href: "#miconeedling", label: "Miconeedling" },
+  { href: "#ageject", label: "AgeJect" },
+];
+
+export default function EnergyDevices() {
   return (
     <Fragment>
       <ServicesHero
-        image="energy-devices-image.png"
+        image="energy-devices/energy-devices-image.png"
         title="Energy devices"
         description=" Laser resurfacing rejuvenates the skin by using advanced laser
           technology to reduce wrinkles, scars, and uneven texture while
           stimulating collagen production. This treatment offers a non-invasive
           solution for achieving smoother, firmer skin with minimal downtime."
       />
-      <ServicesTab />
+      <ServicesTab tabItems={energyDevicesTabItems} />
       <AgeJect />
       <Sofwave />
       <IPL />
