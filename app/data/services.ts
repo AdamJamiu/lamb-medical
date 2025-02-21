@@ -17,7 +17,7 @@ export const all_services: IServices[] = [
     bgImgSrc: "/16.png",
     description:
       "For services like; Sofwave, IPL (Photofacial), Miconeedling (SkinPen), RF Microneedling, AgeJet",
-    link: "",
+    link: "/services/energy-devices",
     title: "Energy Devices",
   },
   {
@@ -25,7 +25,7 @@ export const all_services: IServices[] = [
     bgImgSrc: "/17.png",
     description:
       "For services like; Dermal filler, neurotoxins (Botox, Xeomin, Daxxify), Sculptra, PRP",
-    link: "",
+    link: "/services/injectable-treatments",
   },
   {
     title: "Wellness & Weight Loss",
