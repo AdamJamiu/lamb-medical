@@ -32,7 +32,7 @@ export const all_services: IServices[] = [
     bgImgSrc: "/18.png",
     description:
       "For services like; Be Well program (Semigluite & Tirzepatide), Wellness shots such as NAD, B-12",
-    link: "",
+    link: "/services/sexual-wellness",
   },
   {
     title: "Body Treatments",
