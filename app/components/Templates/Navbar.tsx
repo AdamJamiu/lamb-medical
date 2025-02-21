@@ -168,10 +168,10 @@ const Navbar = () => {
 
 const NavLink = ({ item }: { item: INavItems }) => {
   const pathname = usePathname();
-  let firstRow = item.subItems?.slice(0, 6) || [];
-  let secondRow = item.subItems?.slice(6, 12) || [];
-  let thirdRow = item.subItems?.slice(12, 18) || [];
-  let fourthRow = item.subItems?.slice(18, 24) || [];
+  const firstRow = item.subItems?.slice(0, 6) || [];
+  const secondRow = item.subItems?.slice(6, 12) || [];
+  const thirdRow = item.subItems?.slice(12, 18) || [];
+  const fourthRow = item.subItems?.slice(18, 24) || [];
   const [servicesOpen, setServicesOpen] = useState(false);
   const [hoverTimeout, setHoverTimeout] = useState<NodeJS.Timeout | null>(null);
 
