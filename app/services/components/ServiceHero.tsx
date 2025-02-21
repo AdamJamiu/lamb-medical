@@ -38,7 +38,7 @@ const ServiceHeroSection = () => {
 
   return (
     <section className="bg-service_hero relative flex h-full min-h-screen bg-center bg-no-repeat md:bg-cover">
-      <div className="relative z-10 flex w-[700px] flex-col items-center gap-4 md:pl-28 pt-36 text-center sm:mt-8 md:mt-0 md:items-start md:justify-center md:py-10 md:pt-0 lg:gap-7">
+      <div className="relative z-10 flex w-[700px] flex-col items-center gap-4 md:pl-28 pt-10 text-center sm:mt-8 md:mt-0 md:items-start md:justify-center md:py-10 md:pt-0 lg:gap-7">
         <h1
           data-aos="fade-up"
           className="text-center text-3xl font-bold text-white sm:text-5xl md:text-left md:text-6xl xl:text-[70px] leading-none"

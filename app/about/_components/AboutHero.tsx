@@ -37,25 +37,26 @@ const AboutSection = () => {
   //   };
 
   return (
-    <section className="bg-about_hero relative flex h-full min-h-screen bg-center bg-no-repeat md:bg-cover">
-      <div className="relative z-10 flex w-[900px] flex-col items-center gap-4 md:pl-28 pt-36 text-center sm:mt-8 md:mt-0 md:items-start md:justify-center md:py-10 md:pt-0 lg:gap-7">
+    <section className="bg-about_hero relative flex h-full min-h-[106vh] bg-center bg-no-repeat md:bg-cover">
+      <div className="relative z-10 mx-auto flex w-full md:w-[800px] lg:w-[1400px] flex-col items-center justify-center gap-4 md:pl-28 pt-0 text-center sm:mt-8 md:mt-0 md:py-10 md:pt-0 lg:gap-7">
         <h1
           data-aos="fade-up"
-          className="text-center text-3xl font-bold text-white sm:text-5xl md:text-left md:text-6xl xl:text-[70px]"
+          className="text-center text-4xl font-semibold text-white sm:text-6xl md:text-7xl lg:text-[65px]"
         >
-          Professional Services
+          Expert Care in Aesthetics and Wellness
         </h1>
         <p
           data-aos="fade-up"
-          className="hidden w-[80%] text-center leading-relaxed text-white md:text-left lg:block xl:text-lg"
+          className="hidden w-[80%] text-center leading-relaxed text-white lg:block sm:text-lg lg:text-xl"
         >
-          Lamb Medical offers a range of aesthetic services tailored to your
-          individual needs. Plus, you don’t have to be a member of our concierge
-          practice to enjoy them!
+          At Lamb Medical, we're dedicated to providing expert care in
+          aesthetics, wellness, and concierge medicine. Whether you're focused
+          on rejuvenating your look or enhancing your overall well-being, our
+          knowledgeable team is here to guide you every step of the way.
         </p>
         <p
           data-aos="fade-up"
-          className="block leading-loose text-white lg:hidden"
+          className="block leading-loose text-white lg:hidden sm:text-lg"
         >
           At Lamb Medical, we know your time is valuable. That’s why we offer
           personalized, concierge-style care, giving you direct access to your
@@ -68,12 +69,7 @@ const AboutSection = () => {
         >
           <Link href="#">
             <button className="h-20 rounded-md bg-primary px-12 text-sm text-white transition hover:opacity-70 sm:text-base md:px-14">
-              Explore Services
-            </button>
-          </Link>
-          <Link href="#">
-            <button className="h-20 rounded-md bg-white px-12 text-sm text-primary transition hover:opacity-70 sm:text-base md:px-14">
-              Book Now
+              Schedule Online
             </button>
           </Link>
         </div>

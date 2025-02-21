@@ -8,15 +8,15 @@ const ServiceCard = ({ title, description, link, bgImgSrc }: IServices) => {
       style={{
         backgroundImage: `url(${bgImgSrc})`,
       }}
-      className="w-full bg-no-repeat rounded h-[337px] md:h-[474px] bg-contain"
+      className="w-full bg-no-repeat rounded h-[337px] md:h-[474px] bg-cover"
     >
       <div className="relative z-10 p-7 font-rubik flex justify-between items-start flex-col h-full">
         <div className="w-full">
-          <h1 className="text-white font-semibold text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-[50px] leading-relaxed">
+          <h1 className="md:w-[89%] xl:w-[96%] text-white font-medium lg:font-semibold text-xl sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-[50px] leading-relaxed">
             {title}
           </h1>
 
-          <p className="text-white text-sm md:text-base lg:text-[20px] font-thin">
+          <p className="text-white text-sm md:text-base lg:text-[20px] font-thin 2xl:mt-0 md:mt-4">
             {description}
           </p>
         </div>

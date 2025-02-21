@@ -57,6 +57,6 @@ export const lamb_differences = [
   {
     title: "Aesthetics",
     description:
-      "Dr. Lamb uses a variety of aesthetic products to help you turn back the years. You do <b>NOT</b> have to be an enrolled patient in Lamb Medical to receive aesthetic services.",
+      "Dr. Lamb uses a variety of aesthetic products to help you turn back the years. You do NOT have to be an enrolled patient in Lamb Medical to receive aesthetic services.",
   },
 ];

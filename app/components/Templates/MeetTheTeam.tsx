@@ -37,9 +37,9 @@ const MeetTheTeam = () => {
       );
   };
   return (
-    <section className="w-full">
+    <section className="w-full py-20 lg:py-28 h-full">
       <div className="w-full ">
-        <div className="w-full p-5 sm:p-10 md:p-14 max-w-[1400px] mx-auto">
+        <div className="w-full p-8 sm:p-10 md:px-14 py-14 max-w-[1400px] mx-auto">
           <h1
             data-aos="fade-up"
             className="text-[#12121299] font-rubik font-semibold text-2xl sm:text-3xl md:text-5xl lg:text-6xl leading-tight"

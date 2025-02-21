@@ -16,7 +16,7 @@ import WallOfLove from "./components/WallOfLove";
 
 export default function Home() {
   return (
-    <section className="overflow-hidden pt-16">
+    <section className="overflow-hidden pt-5 sm:pt-16">
       <HeroSection />
 
       {/* Empowering your look */}
@@ -59,7 +59,7 @@ export default function Home() {
         </div>
       </Wrapper>
 
-          {/* Experience the lamb look */}
+      {/* Experience the lamb look */}
       <ExperienceLamb />
 
       <OurServices />
