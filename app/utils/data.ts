@@ -31,6 +31,16 @@ export const dermalFillersBenefits = [
   "Minimally invasive with little to no downtime",
   "Natural-looking and long-lasting results",
 ];
+export const oShotBenefits = [
+  "Accidents when you jump, laugh, or cough",
+  "Leaks when you wait too long",
+  "Low sexual desire",
+  "Difficulty being aroused",
+  "Trouble reaching orgasm",
+  "Painful sex",
+  "Vaginal dryness",
+  "Lichen Sclerosus",
+];
 
 export const sofwaveSatisfactions = [
   " Non-invasive, no interruption to daily routine",
@@ -285,6 +295,118 @@ export const kybellaFAQs: IFaq[] = [
   },
   {
     title: "Are there common side effects? ",
+    content: "",
+  },
+];
+export const prpBreastRejuvenationFAQs: IFaq[] = [
+  {
+    title: "What is the Vampire Wing Lift?",
+    content:
+      "A concierge practice (also called concierge medicine or membership-based healthcare) is a healthcare model where patients pay a monthly or annual retainer fee to a doctor or medical practice in exchange for enhanced, personalized care. This model typically allows for longer appointment times, direct access to physicians, same-day or next-day appointments, and more comprehensive",
+  },
+  {
+    title: "How Does the Vampire Wing Lift Work?",
+    content: "",
+  },
+  {
+    title: "Benefits of the Vampire Wing Lift?",
+    content: "",
+  },
+  {
+    title: "Who is a Good Candidate for the Vampire Wing Lift?",
+    content: "",
+  },
+  {
+    title: "What to Expect During and After the Procedure?",
+    content: "",
+  },
+];
+export const oShotFAQs: IFaq[] = [
+  {
+    title: "What are the benefits?",
+    content:
+      "A concierge practice (also called concierge medicine or membership-based healthcare) is a healthcare model where patients pay a monthly or annual retainer fee to a doctor or medical practice in exchange for enhanced, personalized care. This model typically allows for longer appointment times, direct access to physicians, same-day or next-day appointments, and more comprehensive",
+  },
+  {
+    title: "How does it work?",
+    content: "",
+  },
+  {
+    title: "What can I expect?",
+    content: "",
+  },
+  {
+    title: "What conditions can it help?",
+    content: "",
+  },
+];
+export const monalisaTouchFAQs: IFaq[] = [
+  {
+    title: "What is menopause?",
+    content:
+      "A concierge practice (also called concierge medicine or membership-based healthcare) is a healthcare model where patients pay a monthly or annual retainer fee to a doctor or medical practice in exchange for enhanced, personalized care. This model typically allows for longer appointment times, direct access to physicians, same-day or next-day appointments, and more comprehensive",
+  },
+  {
+    title: "What are the symptoms of menopause?",
+    content: "",
+  },
+  {
+    title: "What is vulvovaginal atrophy?",
+    content: "",
+  },
+  {
+    title: "What causes decreases in estrogen?",
+    content: "",
+  },
+  {
+    title: "What treatments are available for dryness and pain?",
+    content: "",
+  },
+  {
+    title: "How does the MonaLisa Touch work?",
+    content: "",
+  },
+  {
+    title: "Good for Women Who Experience?",
+    content: "",
+  },
+  {
+    title: "Not Recommended for the Following?",
+    content: "",
+  },
+];
+export const miraDryFAQs: IFaq[] = [
+  {
+    title: "How does miraDry work?",
+    content:
+      "A concierge practice (also called concierge medicine or membership-based healthcare) is a healthcare model where patients pay a monthly or annual retainer fee to a doctor or medical practice in exchange for enhanced, personalized care. This model typically allows for longer appointment times, direct access to physicians, same-day or next-day appointments, and more comprehensive",
+  },
+  {
+    title: "Don’t i need sweat glands?",
+    content: "",
+  },
+  {
+    title: "What are the results i can expect?",
+    content: "",
+  },
+  {
+    title: "How many treatments are needed?",
+    content: "",
+  },
+  {
+    title: "Are there side effects or down time?",
+    content: "",
+  },
+  {
+    title: "Is miraDry safe?",
+    content: "",
+  },
+  {
+    title: "Do i need to come in for a consultation?",
+    content: "",
+  },
+  {
+    title: "Where are you located?",
     content: "",
   },
 ];
