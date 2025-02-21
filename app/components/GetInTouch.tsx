@@ -45,7 +45,7 @@ const GetInTouch = () => {
   };
 
   return (
-    <section className="w-full p-5 py-20">
+    <section className="w-full px-5 py-10 md:py-36">
       <div className="w-full mx-auto max-w-[1200px] flex flex-col md:flex-row gap-7 md:gap-10 lg:gap-20 xl:gap-28">
         <div className="w-full">
           <h1
@@ -84,7 +84,7 @@ const GetInTouch = () => {
         <div data-aos="fade-up">
           <form
             onSubmit={sendEmail}
-            className="w-full space-y-5 font-work_sans"
+            className="w-full space-y-5 md:space-y-10 font-work_sans"
           >
             <input
               className="px-4 py-3.5 w-full bg-[#FAFAFA] border border-[#0000000A] text-[#8E9BAE] rounded-xl outline-none focus:outline-grey-100"

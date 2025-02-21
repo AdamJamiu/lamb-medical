@@ -8,6 +8,11 @@ import Questions from "./components/Templates/Questions";
 import MeetTheTeam from "./components/Templates/MeetTheTeam";
 import OurServices from "./components/Templates/OurServices";
 import { home_faq } from "./data/faq";
+// import { BiCheck } from "react-icons/bi";
+// import { lamb_differences } from "./data/lamb_differences";
+// import BookNowButton from "./services/components/book-now-button";
+import ExperienceLamb from "./components/ExperienceLamb";
+import WallOfLove from "./components/WallOfLove";
 
 export default function Home() {
   return (
@@ -54,8 +59,12 @@ export default function Home() {
         </div>
       </Wrapper>
 
+          {/* Experience the lamb look */}
+      <ExperienceLamb />
+
       <OurServices />
       <MeetTheTeam />
+      <WallOfLove />
       <Questions />
       <FAQ data={home_faq} />
       <GetInTouch />

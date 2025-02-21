@@ -10,7 +10,7 @@ const FAQ = ({ data }: { data: IFaq[] }) => {
     <section className="w-full bg-white py-10 md:py-20">
       <div
         data-aos="fade-up"
-        className="flex w-full max-w-[1200px] flex-col gap-7 divide-y-[0.4px] divide-[#D9D9D9] md:gap-10"
+        className="flex w-full max-w-[1200px] flex-col gap-7 divide-y-[0.4px] divide-[#D9D9D9] md:gap-10 mx-auto"
       >
         {data.map((item: IFaq, index) => (
           <FaqItemButton item={item} key={index} />

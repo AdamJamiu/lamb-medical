@@ -18,30 +18,31 @@ const OurServices = () => {
   }, [isExpanded]);
 
   return (
-    <section className="bg-[#F1F1F1] w-full py-10 px-5 md:py-20 lg:py-32">
-      <div className="w-full p-5 sm:p-10 md:p-14 max-w-[1400px] mx-auto">
+    <section className="w-full bg-[#F1F1F1] px-5 py-10 md:py-20 lg:py-32">
+      <div className="mx-auto w-full max-w-[1400px] p-5 sm:p-10 md:p-14">
         <h1
           data-aos="fade-up"
-          className="text-[#12121299] font-rubik font-semibold text-2xl sm:text-4xl md:text-5xl lg:text-6xl leading-tight"
+          className="font-rubik text-2xl font-semibold leading-tight text-[#12121299] sm:text-4xl md:text-5xl lg:text-6xl"
         >
           Our Services
         </h1>
 
         <h2
           data-aos="fade-up"
-          className="text-[#12121299] font-work_sans md:text-lg leading-loose lg:w-[77%] mt-5"
+          className="mt-5 font-work_sans leading-loose text-[#12121299] md:text-lg lg:w-[70%] xl:w-[60%]"
         >
           Discover our range of innovative solutions designed to support your
           health, wellness, and confidence.
         </h2>
         <button
+          data-aos="fade-up"
           onClick={() => setIsExpanded((prev) => !prev)}
-          className="text-white h-20 px-12 md:px-14 rounded-md bg-primary transition hover:opacity-70 sm:text-base text-sm font-poppins font-semibold mt-10"
+          className="mt-10 h-20 rounded-md bg-primary px-12 font-poppins text-sm font-semibold text-white transition hover:opacity-70 sm:text-base md:px-14"
         >
           {isExpanded ? "See Less" : "See all services"}
         </button>
 
-        <div className="w-full mt-14 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
+        <div className="mt-28 grid w-full grid-cols-1 gap-10 sm:grid-cols-2 md:grid-cols-3">
           {services.map((item, index) => (
             <ServiceCard
               key={index}

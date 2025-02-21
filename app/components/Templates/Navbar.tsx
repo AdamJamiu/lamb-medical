@@ -24,7 +24,7 @@ const Navbar = () => {
     }
   }, []);
 
-  const navItems = [
+  const navItems: any = [
     { href: "/", label: "Home" },
     { href: "/about", label: "About" },
     {
@@ -96,7 +96,7 @@ const Navbar = () => {
 
         {/* Desktop Navigation */}
         <div className="hidden lg:flex gap-14 items-center font-medium text-[#8E9BAE]">
-          {navItems.map((item) => (
+          {navItems.map((item: any) => (
             <div
               key={item.href}
               className="relative"
@@ -128,7 +128,7 @@ const Navbar = () => {
                   onMouseEnter={handleMouseEnter}
                   onMouseLeave={handleMouseLeave}
                 >
-                  {item.subItems.map((subItem) => (
+                  {item.subItems.map((subItem: any) => (
                     <Link
                       key={subItem.href}
                       href={subItem.href}
@@ -178,7 +178,7 @@ const Navbar = () => {
         </div> */}
 
         {/* Menu Items */}
-        {navItems.map((item) => (
+        {navItems.map((item: any) => (
           <div key={item.href} className="text-center">
             <div
               className="flex flex-col items-center"
@@ -215,7 +215,7 @@ const Navbar = () => {
               </div>
               {item.subItems && servicesOpen && (
                 <div className="mt-2 flex flex-col items-center">
-                  {item.subItems.map((subItem) => (
+                  {item.subItems.map((subItem: any) => (
                     <Link
                       key={subItem.href}
                       href={subItem.href}

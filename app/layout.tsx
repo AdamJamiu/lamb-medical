@@ -10,6 +10,11 @@ import "aos/dist/aos.css"; // Import AOS CSS
 import "./globals.css";
 import "react-toastify/dist/ReactToastify.css";
 
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/scrollbar";
+
 export const metadata: Metadata = {
   title: "Lamb Medical Aestheics",
   description:
