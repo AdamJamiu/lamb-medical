@@ -37,7 +37,7 @@ const OurServices = () => {
         <button
           data-aos="fade-up"
           onClick={() => setIsExpanded((prev) => !prev)}
-          className="mt-10 h-20 rounded-md bg-primary px-12 font-poppins text-sm font-semibold text-white transition hover:opacity-70 sm:text-base md:px-14"
+          className="font-poppins mt-10 h-20 rounded-md bg-primary px-12 text-sm font-semibold text-white transition hover:opacity-70 sm:text-base md:px-14"
         >
           {isExpanded ? "See Less" : "See all services"}
         </button>

@@ -15,9 +15,9 @@ export default function ServicesHero({
     <section className="grid grid-cols-2 grid-rows-[77.1rem] items-center gap-[8.2rem] bg-primary pt-[8rem]">
       <div className="relative size-full" data-aos="fade-right">
         <Image
-          src={`/images/energy-devices/${image}`}
+          src={`/images/${image}`}
           alt="facial-services-image"
-          className="absolute object-cover"
+          className="absolute object-cover object-center"
           fill
         />
       </div>

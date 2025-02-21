@@ -1,12 +1,16 @@
 import { cn } from "@/app/utils";
 
+interface ServicesAfterEffectsProps {
+  children: React.ReactNode;
+  className?: string;
+  title?: string;
+}
+
 export default function ServicesAfterEffects({
   children,
   className,
-}: {
-  children: React.ReactNode;
-  className?: string;
-}) {
+  title,
+}: ServicesAfterEffectsProps) {
   return (
     <figure
       className={cn(
@@ -14,6 +18,14 @@ export default function ServicesAfterEffects({
         className,
       )}
     >
+      {!!title && (
+        <figcaption
+          className="text-grey-800 col-span-full text-center font-rubik text-[3.8rem] font-semibold leading-[4rem]"
+          data-aos="fade-left"
+        >
+          {title}
+        </figcaption>
+      )}
       {children}
     </figure>
   );
