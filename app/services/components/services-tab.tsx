@@ -5,14 +5,14 @@ import { cn } from "@/app/utils";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-const tabItems = [
-  { href: "#softwave", label: "Sofwave" },
-  { href: "#ipl", label: "IPL" },
-  { href: "#miconeedling", label: "Miconeedling" },
-  { href: "#ageject", label: "AgeJect" },
-];
+interface ServicesTabProps {
+  tabItems: {
+    href: string;
+    label: string;
+  }[];
+}
 
-export default function ServicesTab() {
+export default function ServicesTab({ tabItems }: ServicesTabProps) {
   const pathname = usePathname();
 
   return (
