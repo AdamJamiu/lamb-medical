@@ -2,35 +2,65 @@ import Image from "next/image";
 
 const BuilidngTrust = () => {
   return (
-    <section className="w-full py-24 lg:py-32 xl:pt-44 xl:pb-44 h-full">
+    <section className="h-full w-full py-24 lg:py-32 xl:pb-44 xl:pt-44 px-0 md:px-10">
       <div className="w-full">
-        <div className="w-full p-8 sm:p-10 md:px-14 py-14 max-w-[1500px] mx-auto">
+        <div className="mx-auto w-full max-w-[1000px] p-8 py-14 sm:p-10 md:px-14">
           <h1
             data-aos="fade-up"
-            className="text-[#12121299] font-rubik font-semibold text-2xl sm:text-3xl md:text-5xl lg:text-6xl leading-tight"
+            className="font-rubik text-center text-2xl font-semibold leading-tight text-[#12121299] sm:text-3xl md:text-5xl lg:text-6xl"
           >
             Building trust through transparency and communication
           </h1>
           <h2
             data-aos="fade-up"
-            className="text-[#12121299] font-work_sans md:text-lg leading-loose lg:w-[80%] mt-5"
+            className="mt-5 font-work_sans text-center leading-loose text-[#12121299] md:text-lg w-full"
           >
             From preventive care and wellness programs to advanced treatments
             and personalized health plans, our offerings are designed to empower
             you to live your best life.
           </h2>
         </div>
+
         <div
           data-aos="fade-up"
-          className="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-5"
+          className="grid w-full grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-7 md:gap-10 mt-16 mx-auto"
         >
-          <Image
-            src="/32.png"
-            width={600}
-            height={400}
-            className="w-full col-span-1 h-[300px] md:h-[400px]"
-            alt="empowering"
-          />
+          <div className="col-span-1 md:col-span-2 lg:col-span-3 object-cover h-[90%]">
+            <Image
+              src="/33.png"
+              width={600}
+              height={400}
+              className="w-full md:h-[529px]"
+              alt="empowering"
+            />
+          </div>
+          <div className="col-span-1 md:col-span-2 lg:col-span-3 xl:col-span-4 h-[90%]">
+            <Image
+              src="/34.png"
+              width={600}
+              height={400}
+              className="w-full md:h-[529px]"
+              alt="empowering"
+            />
+          </div>
+          <div className="col-span-1 md:col-span-2 lg:col-span-4 object-cover h-[90%]">
+            <Image
+              src="/35.png"
+              width={600}
+              height={400}
+              className="w-full md:h-[529px]"
+              alt="empowering"
+            />
+          </div>
+          <div className="col-span-1 md:col-span-2 lg:col-span-3 xl:col-span-3 h-[90%]">
+            <Image
+              src="/36.png"
+              width={600}
+              height={400}
+              className="w-full md:h-[529px]"
+              alt="empowering"
+            />
+          </div>
         </div>
       </div>
     </section>
