@@ -1,14 +1,10 @@
 "use client";
 
-import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import { toast } from "react-toastify";
 import Link from "next/link";
 
 const AboutSection = () => {
-  const [phone, setPhone] = useState("");
-  const [loading, setLoading] = useState(false);
-
   // TODO:
   //   const sendEstimationRequest = async (e: { preventDefault: () => void }) => {
   //     e.preventDefault();
