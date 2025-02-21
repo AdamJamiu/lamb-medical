@@ -42,6 +42,7 @@ export default {
       "grey-600": "#8E9BAE",
       "grey-700": "#282828",
       "grey-750": "#55534E",
+      "grey-800": "#16161699",
       "grey-900": "#161616",
     },
     fontSize: {
