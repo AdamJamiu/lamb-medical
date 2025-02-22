@@ -38,10 +38,10 @@ const ServiceHeroSection = () => {
 
   return (
     <section className="bg-service_hero relative flex h-full min-h-screen bg-center bg-no-repeat md:bg-cover">
-      <div className="relative z-10 flex w-[700px] flex-col items-center gap-4 md:pl-28 pt-10 text-center sm:mt-8 md:mt-0 md:items-start md:justify-center md:py-10 md:pt-0 lg:gap-7">
+      <div className="relative z-10 flex w-[700px] flex-col items-center gap-4 md:pl-28 pt-48 text-center sm:mt-8 md:mt-0 md:items-start md:justify-center md:pb-10 md:pt-28 lg:gap-7">
         <h1
           data-aos="fade-up"
-          className="text-center text-3xl font-bold text-white sm:text-5xl md:text-left md:text-6xl xl:text-[70px] leading-none"
+          className="text-center text-4xl font-bold text-white sm:text-5xl md:text-left md:text-6xl xl:text-[70px] leading-none mb-8 md:mb-0"
         >
           Professional Services
         </h1>
@@ -67,12 +67,12 @@ const ServiceHeroSection = () => {
           className="mt-8 flex h-max items-center justify-center gap-6 font-poppins font-semibold md:justify-start md:gap-10"
         >
           <Link href="#">
-            <button className="h-20 rounded-md bg-primary px-12 text-sm text-white transition hover:opacity-70 sm:text-base md:px-14">
+            <button className="h-20 rounded-md bg-primary px-12 text-white transition hover:opacity-70 text-xs md:text-sm lg:text-base md:px-14">
               Explore Services
             </button>
           </Link>
           <Link href="#">
-            <button className="h-20 rounded-md bg-white px-12 text-sm text-primary transition hover:opacity-70 sm:text-base md:px-14">
+            <button className="h-20 rounded-md bg-white px-12 text-xs md:text-sm lg:text-base text-primary transition hover:opacity-70 md:px-14">
               Book Now
             </button>
           </Link>
