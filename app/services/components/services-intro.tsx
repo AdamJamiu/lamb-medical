@@ -10,11 +10,8 @@ export default function ServicesIntro({
   description,
 }: ServicesIntroProps) {
   return (
-    <section
-      className="space-y-[2rem] px-[1.3rem] pt-[2rem]"
-      data-aos="fade-left"
-    >
-      <h3 className="font-rubik text-[6.2rem] font-semibold leading-[8rem] text-grey-200">
+    <section className="space-y-[2rem] pt-[2rem]" data-aos="fade-left">
+      <h3 className="font-rubik text-[5.8rem] font-semibold leading-[6rem] text-grey-200">
         {title}
       </h3>
 

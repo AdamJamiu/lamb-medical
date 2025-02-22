@@ -16,7 +16,7 @@ export default function ServicesHero({
       <div className="relative size-full" data-aos="fade-right">
         <Image
           src={`/images/${image}`}
-          alt="facial-services-image"
+          alt={title}
           className="absolute object-cover object-center"
           fill
         />
