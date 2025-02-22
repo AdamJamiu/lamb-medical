@@ -15,9 +15,9 @@ export default function ServicesIntro({
         {title}
       </h3>
 
-      <p className="text-grey-750 grid gap-8 font-work_sans text-lg font-medium leading-[3.6rem] tracking-[0.02rem] opacity-80">
+      <div className="grid gap-8 font-work_sans text-lg font-medium leading-[3.6rem] tracking-[0.02rem] text-grey-750 opacity-80">
         {description}
-      </p>
+      </div>
       <BookNowButton>Book Now</BookNowButton>
     </section>
   );
