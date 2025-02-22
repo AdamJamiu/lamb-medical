@@ -1,4 +1,16 @@
 import { IFaq } from "../data/faq";
+import {
+  ClockIcon,
+  DropIcon,
+  EmptyFaceIcon,
+  FaceIcon,
+  HealthIcon,
+  LoveIcon,
+  LoveSignalIcon,
+  PlusIcon,
+  SkincareIcon,
+  StarIcon,
+} from "../icons";
 
 export const aquaGoldFAQs: IFaq[] = [
   {
@@ -441,5 +453,160 @@ export const miraDryFAQs: IFaq[] = [
   {
     title: "Where are you located?",
     content: "",
+  },
+];
+
+export const wellProgramTeamCard = [
+  {
+    id: 1,
+    name: "Dr. Mary Lamb",
+    photo: "/images/weight-loss/weight-loss-1.png",
+  },
+  {
+    id: 2,
+    name: "Ellie Meehl",
+    photo: "/images/weight-loss/weight-loss-2.png",
+  },
+  {
+    id: 3,
+    name: "Colin Smith",
+    photo: "/images/weight-loss/weight-loss-3.png",
+  },
+  {
+    id: 4,
+    name: "Colin Smith",
+    photo: "/images/weight-loss/weight-loss-4.png",
+  },
+];
+
+export const ourServices = [
+  {
+    id: 1,
+    icon: PlusIcon,
+    description:
+      "Comprehensive wellness evaluation for holistic health improvement",
+    isPending: false,
+  },
+  {
+    id: 2,
+    icon: DropIcon,
+    description:
+      "Mental Health assessment and plan of care, including medication management.",
+    isPending: false,
+  },
+  {
+    id: 3,
+    icon: HealthIcon,
+    description:
+      "Weight loss support with GLP-1 medications like Semaglutide and Tirzepatide",
+    isPending: false,
+  },
+  {
+    id: 4,
+    icon: StarIcon,
+    description:
+      "Lifestyle coaching to make small changes for your wellness goals",
+    isPending: false,
+  },
+  {
+    id: 5,
+    icon: LoveSignalIcon,
+    description:
+      "Stress management – helping you balance all the demands of your busy life.",
+    isPending: false,
+  },
+  {
+    id: 6,
+    icon: FaceIcon,
+    description:
+      "Direct access to your experienced and knowledgeable health care team.",
+    isPending: false,
+  },
+  {
+    id: 7,
+    icon: EmptyFaceIcon,
+    description: "10% of Nutrafol supplements for hair growth",
+    isPending: false,
+  },
+  {
+    id: 8,
+    icon: SkincareIcon,
+    description: "10% ZO Health skin care products",
+    isPending: false,
+  },
+  {
+    id: 9,
+    icon: LoveIcon,
+    description: "Body composition analysis monthly with InBody",
+    isPending: true,
+  },
+  {
+    id: 10,
+    icon: ClockIcon,
+    description:
+      "VIP pricing for body contouring, skin tightening, muscle toning procedures",
+    isPending: true,
+  },
+];
+
+export const whyChooseUsCard = [
+  {
+    id: 1,
+    title: "Expert-Led Care",
+    content:
+      "Your journey begins with a consultation led by our experienced advanced practitioners. We’ll provide a medical assessment and tailor your treatment to meet your unique needs and goals",
+  },
+  {
+    id: 2,
+    title: "Modern, Science-Backed Solutions",
+    content:
+      "Semaglutide and Tirzepatide are scientifically proven to support effective weight management, helping you achieve results that last.",
+  },
+  {
+    id: 3,
+    title: "Continuous Support, Anytime, Anywhere",
+    content:
+      "Stay connected with our team through constant communication and follow-up care. From answering questions to tracking progress, we’re with you every step of the way.",
+  },
+  {
+    id: 4,
+    title: "Convenience Meets Care",
+    content:
+      "Access expert guidance and personalized treatment from the comfort of your home – no need to sacrifice your busy schedule to prioritize your health.",
+  },
+];
+
+export const conciergeItems = [
+  {
+    id: 1,
+    title: "24/7 Access to your Physician via cell, text, or email",
+  },
+  {
+    id: 2,
+    title: "Executive Style Annual Physicals",
+  },
+  {
+    id: 3,
+    title: "Well child care at age-appropriate intervals for children",
+  },
+  {
+    id: 4,
+    title: "Same or next Business Day Appointments",
+  },
+  {
+    id: 5,
+    title: "Coordination of Health Care Services",
+  },
+  {
+    id: 6,
+    title: "Online Medical Records",
+  },
+  {
+    id: 7,
+    title: "Personalized Wellness Plan",
+  },
+  {
+    id: 8,
+    title: "In Office Testing",
   },
 ];
