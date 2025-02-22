@@ -6,7 +6,7 @@ import BeWellProgramTeam from "./components/well-program-team";
 import OurServices from "./components/our-services";
 import ServiceImageContentLayout from "../components/service-image-content-layout";
 import WhyChooseUs from "./components/why-choose-us";
-import Test from "./components/test";
+import Transformation from "./components/transformation ";
 import BookNowButton from "../components/book-now-button";
 import ConciergeFamily from "../components/concierge-family";
 
@@ -43,7 +43,7 @@ export default function InjectableTreatments() {
       </ServiceImageContentLayout>
 
       <WhyChooseUs />
-      <Test />
+      <Transformation />
       <ConciergeFamily />
       <ServiceImageContentLayout
         image="weight-loss/visual-consultaion-3.png"
