@@ -69,6 +69,12 @@ export const sofwaveBenefits = [
   "Simple, intuitive, and fast treatment — improves practice patient workflow",
 ];
 
+export const latisseBenefits = [
+  "Multiple ultrasound beams technology provides high levels of coverage with each pulse",
+  "Proven clinical efficacy",
+  "Simple, intuitive, and fast treatment — improves practice patient workflow",
+];
+
 export const dermalFillersBenefits = [
   " Instantly restores lost volume for a youthful appearance",
   "Smooths fine lines and wrinkles",
@@ -490,6 +496,76 @@ export const emsculptNeoFAQs: IFaq[] = [
   },
   {
     title: "Can Emsculpt Neo replace exercise?",
+    content: "",
+  },
+];
+export const exosomsFAQs: IFaq[] = [
+  {
+    title: "What are exosomes, and how do they work in skin care?",
+    content:
+      "A concierge practice (also called concierge medicine or membership-based healthcare) is a healthcare model where patients pay a monthly or annual retainer fee to a doctor or medical practice in exchange for enhanced, personalized care. This model typically allows for longer appointment times, direct access to physicians, same-day or next-day appointments, and more comprehensive",
+  },
+  {
+    title: "How do exosomes differ from traditional serums and creams?",
+    content: "",
+  },
+  {
+    title: "Can exosomes be used after cosmetic procedures?",
+    content: "",
+  },
+  {
+    title: "Are exosome treatments safe for all skin types?",
+    content: "",
+  },
+  {
+    title: "Are exosome treatments safe for all skin types?",
+    content: "",
+  },
+];
+
+export const latisseFAQs: IFaq[] = [
+  {
+    title: "What can I expect from Latisse?",
+    content:
+      "A concierge practice (also called concierge medicine or membership-based healthcare) is a healthcare model where patients pay a monthly or annual retainer fee to a doctor or medical practice in exchange for enhanced, personalized care. This model typically allows for longer appointment times, direct access to physicians, same-day or next-day appointments, and more comprehensive",
+  },
+  {
+    title: "How long does it take to see results?",
+    content: "",
+  },
+  {
+    title: "How often do you use Latisse?",
+    content: "",
+  },
+  {
+    title: "Are the results of Latisse permanent?",
+    content: "",
+  },
+  {
+    title: "How long does one box last?",
+    content: "",
+  },
+];
+export const platedFAQs: IFaq[] = [
+  {
+    title: "What makes Plated™ different from other skin care products?",
+    content:
+      "A concierge practice (also called concierge medicine or membership-based healthcare) is a healthcare model where patients pay a monthly or annual retainer fee to a doctor or medical practice in exchange for enhanced, personalized care. This model typically allows for longer appointment times, direct access to physicians, same-day or next-day appointments, and more comprehensive",
+  },
+  {
+    title: "How do I incorporate Plated™ into my routine?",
+    content: "",
+  },
+  {
+    title: "Can Plated™ be used after cosmetic procedures?",
+    content: "",
+  },
+  {
+    title: "Is Plated™ suitable for all skin types?",
+    content: "",
+  },
+  {
+    title: " When will I start seeing results with Plated™?",
     content: "",
   },
 ];
