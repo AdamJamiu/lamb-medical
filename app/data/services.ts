@@ -38,7 +38,7 @@ export const all_services: IServices[] = [
     title: "Body Treatments",
     bgImgSrc: "/19.png",
     description: "For services like; Emsulpt Neo, Sofwave body, Kybella",
-    link: "",
+    link: "/services/body-treatments",
   },
   {
     title: "Medical Services",
@@ -51,7 +51,7 @@ export const all_services: IServices[] = [
     title: "Sexual Wellness",
     bgImgSrc: "/21.png",
     description: "",
-    link: "",
+    link: "/services/sexual-wellness",
   },
   {
     title: "Skin care Products",

@@ -87,6 +87,25 @@ export const oShotBenefits = [
   "Lichen Sclerosus",
 ];
 
+export const emsculptNeoBenefits = [
+  "Builds muscle and burns fat simultaneously",
+  "Non-invasive, no downtime required",
+  "Clinically proven results in as little as four sessions",
+  "Tones abs, lifts buttocks, sculpts arms, legs, and more",
+  "Safe and effective for most body types",
+];
+
+export const sofwaveBodyBenefits = [
+  "Multiple ultrasound beams technology provides high levels of coverage with each pulse",
+  "Proven clinical efficacy",
+  "Simple, intuitive, and fast treatment — improves practice patient workflow",
+];
+export const sofwaveBodySatisfaction = [
+  "Non-invasive, no interruption to daily routine",
+  "Fast treatment: ~30 to 45 minutes",
+  "Consistent results",
+];
+
 export const sofwaveSatisfactions = [
   " Non-invasive, no interruption to daily routine",
   "Fast treatment: ~30 to 45 minutes",
@@ -417,6 +436,60 @@ export const monalisaTouchFAQs: IFaq[] = [
   },
   {
     title: "Not Recommended for the Following?",
+    content: "",
+  },
+];
+export const sofwaveBodyFAQs: IFaq[] = [
+  {
+    title: "How does Sofwave™ work?",
+    content:
+      "A concierge practice (also called concierge medicine or membership-based healthcare) is a healthcare model where patients pay a monthly or annual retainer fee to a doctor or medical practice in exchange for enhanced, personalized care. This model typically allows for longer appointment times, direct access to physicians, same-day or next-day appointments, and more comprehensive",
+  },
+  {
+    title: "How is Sofwave™ better than other existing technologies?",
+    content: "",
+  },
+  {
+    title: "HOW MANY TREATMENTS ARE NEEDED?",
+    content: "",
+  },
+  {
+    title: "WHAT DOES THE SOFWAVE™ TREATMENT FEEL LIKE?",
+    content: "",
+  },
+  {
+    title: "WHEN CAN I EXPECT TO SEE RESULTS?",
+    content: "",
+  },
+  {
+    title: "ARE THERE ANY SIDE EFFECTS WITH SOFWAVE?",
+    content: "",
+  },
+];
+export const emsculptNeoFAQs: IFaq[] = [
+  {
+    title: "How does Emsculpt Neo work?",
+    content:
+      "A concierge practice (also called concierge medicine or membership-based healthcare) is a healthcare model where patients pay a monthly or annual retainer fee to a doctor or medical practice in exchange for enhanced, personalized care. This model typically allows for longer appointment times, direct access to physicians, same-day or next-day appointments, and more comprehensive",
+  },
+  {
+    title: "Who is a good candidate for Emsculpt Neo?",
+    content: "",
+  },
+  {
+    title: "How many sessions will I need?",
+    content: "",
+  },
+  {
+    title: "Is there any downtime after the treatment?",
+    content: "",
+  },
+  {
+    title: "When will I see results, and how long do they last?",
+    content: "",
+  },
+  {
+    title: "Can Emsculpt Neo replace exercise?",
     content: "",
   },
 ];

@@ -10,11 +10,11 @@ import Transformation from "./components/transformation ";
 import BookNowButton from "../components/book-now-button";
 import ConciergeFamily from "../components/concierge-family";
 
-const injectableTreatmentsTabItems = [
+const weightLossTabItems = [
   { href: "#well-program", label: "Be Well Program" },
 ];
 
-export default function InjectableTreatments() {
+export default function WeightLoss() {
   return (
     <Fragment>
       <ServicesHero
@@ -22,7 +22,7 @@ export default function InjectableTreatments() {
         title="Wellness & Weight Loss"
         description="The Wellness & Weight Loss programs at Lamb Medical focus on personalized plans to help patients achieve sustainable health and fitness goals. Through expert guidance, advanced treatments, and lifestyle support, these programs promote overall well-being, increased energy, and long-term health."
       />
-      <ServicesTab tabItems={injectableTreatmentsTabItems} />
+      <ServicesTab tabItems={weightLossTabItems} />
       <BeWellProgram />
       <BeWellProgramTeam />
       <OurServices />
