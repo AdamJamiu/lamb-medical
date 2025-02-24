@@ -32,39 +32,39 @@ export const all_services: IServices[] = [
     bgImgSrc: "/18.png",
     description:
       "For services like; Be Well program (Semigluite & Tirzepatide), Wellness shots such as NAD, B-12",
-    link: "/services/sexual-wellness",
+    link: "/services/weight-loss",
   },
   {
     title: "Body Treatments",
     bgImgSrc: "/19.png",
     description: "For services like; Emsulpt Neo, Sofwave body, Kybella",
-    link: "",
+    link: "/services/body-treatments",
   },
   {
     title: "Medical Services",
     bgImgSrc: "/20.png",
     description:
       "Concierge Medicine, Laser Genesis (warts, veins & nail fungas)",
-    link: "",
+    link: "/services/medical-services",
   },
   {
     title: "Sexual Wellness",
     bgImgSrc: "/21.png",
     description: "",
-    link: "",
+    link: "/services/sexual-wellness",
   },
   {
     title: "Skin care Products",
     bgImgSrc: "/22.png",
     description:
       "Retail skin care brands like ZO, Skin Medica, Latisse (eye lash growth serums), and Exosomes (Plated)",
-    link: "",
+    link: "/services/skincare-products",
   },
   {
     title: "Memberships",
     bgImgSrc: "/23.png",
     description:
       "Be Well Memberships (Both virtual & in clinic offered), Aesthetic Membership (Access & Premium)",
-    link: "",
+    link: "/services/memberships",
   },
 ];

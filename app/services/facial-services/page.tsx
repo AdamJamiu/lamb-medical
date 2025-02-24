@@ -15,7 +15,7 @@ const facialServicesTabItems = [
   { href: "#Peels", label: "Peels" },
 ];
 
-export default function EnergyDevices() {
+export default function FacialServices() {
   return (
     <Fragment>
       <ServicesHero

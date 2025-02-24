@@ -10,17 +10,14 @@ export default function ServicesIntro({
   description,
 }: ServicesIntroProps) {
   return (
-    <section
-      className="space-y-[2rem] px-[1.3rem] pt-[2rem]"
-      data-aos="fade-left"
-    >
-      <h3 className="font-rubik text-[6.2rem] font-semibold leading-[8rem] text-grey-200">
+    <section className="space-y-[2rem] pt-[2rem]" data-aos="fade-left">
+      <h3 className="font-rubik text-[5.8rem] font-semibold leading-[6rem] text-grey-200">
         {title}
       </h3>
 
-      <p className="text-grey-750 grid gap-8 font-work_sans text-lg font-medium leading-[3.6rem] tracking-[0.02rem] opacity-80">
+      <div className="grid gap-8 font-work_sans text-lg font-medium leading-[3.6rem] tracking-[0.02rem] text-grey-750 opacity-80">
         {description}
-      </p>
+      </div>
       <BookNowButton>Book Now</BookNowButton>
     </section>
   );
