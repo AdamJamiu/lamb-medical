@@ -45,7 +45,7 @@ export const all_services: IServices[] = [
     bgImgSrc: "/20.png",
     description:
       "Concierge Medicine, Laser Genesis (warts, veins & nail fungas)",
-    link: "",
+    link: "/services/medical-services",
   },
   {
     title: "Sexual Wellness",
