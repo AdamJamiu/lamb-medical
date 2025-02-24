@@ -29,11 +29,10 @@ export const blogs = [
     imgSrc: "/images/blog/40.png",
   },
   {
-    title:
-      "miraDry: The anti-sweat solution better than deodorant, Botox, and surgery",
-    date: "July 28, 2023",
+    title: "Introducing AgeJET: Skin rejuvenation that does it all ",
+    date: "October 12, 2023",
     content:
-      "Sweating is one of those facts of life: We all do it, but no one likes it. But while sweating...",
+      "Healthcare professionals agree that resolving each patient’s unique problems is one of the most rewarding aspects of ...",
     imgSrc: "/images/blog/41.png",
   },
   {
@@ -49,5 +48,27 @@ export const blogs = [
     content:
       "Healthcare is not one-size-fits-all. Every person you know is unique, and so are their health conditions. That’s why medical professionals...",
     imgSrc: "/images/blog/43.png",
+  },
+  {
+    title:
+      "miraDry: The anti-sweat solution better than deodorant, Botox, and surgery",
+    date: "July 28, 2023",
+    content:
+      "Sweating is one of those facts of life: We all do it, but no one likes it. But while sweating...",
+    imgSrc: "/images/blog/44.png",
+  },
+  {
+    title: "The greatest anti-aging hack: sun protection",
+    date: "June 30, 2023",
+    content:
+      "There’s no denying it, most people are on a mission to look younger. In fact, the anti-aging market is expected...",
+    imgSrc: "/images/blog/45.png",
+  },
+  {
+    title: "Every question you have about AviClear answered",
+    date: "June 16, 2023",
+    content:
+      "Healthcare is not one-size-fits-all. Every person you know is unique, and so are their health conditions. That’s why medical professionals...",
+    imgSrc: "/images/injectable-treatments/dermal-fillers.png",
   },
 ];

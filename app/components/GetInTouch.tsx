@@ -45,12 +45,12 @@ const GetInTouch = () => {
   };
 
   return (
-    <section className="w-full px-5 py-10 md:py-36">
+    <section className="w-full px-5 xs:py-10 py-14 md:py-36">
       <div className="w-full mx-auto max-w-[1200px] flex flex-col md:flex-row gap-7 md:gap-8 lg:gap-20 xl:gap-28">
         <div className="w-full">
           <h1
             data-aos="fade-up"
-            className="font-bold text-xl sm:text-2xl md:text-3xl xl:text-5xl py-7 lg:text-4xl text-[#282828] font-rubik"
+            className="font-bold text-[32px] sm:text-2xl md:text-3xl xl:text-5xl py-7 lg:text-4xl text-[#282828] font-rubik"
           >
             Get in touch
           </h1>
@@ -64,7 +64,7 @@ const GetInTouch = () => {
           </p>
           <p
             data-aos="fade-up"
-            className="lg:hidden block text-base leading-loose w-full text-[#8E9BAE]"
+            className="lg:hidden block text-base leading-loose w-full text-[#8E9BAE] mt-3"
           >
             Your care. Your time. Your way. Schedule online and experience the
             personalized, concierge-style medical care you deserve.
@@ -77,7 +77,7 @@ const GetInTouch = () => {
           <img
             src="/location.png"
             alt="location map"
-            className="mt-5 w-full md:w-auto md:h-auto"
+            className="mt-7 w-full md:w-auto md:h-auto"
             data-aos="fade-up"
           />
         </div>
@@ -87,29 +87,29 @@ const GetInTouch = () => {
             className="w-full space-y-5 xs:space-y-10 font-work_sans"
           >
             <input
-              className="px-4 py-3.5 w-full bg-[#FAFAFA] border border-[#0000000A] text-[#8E9BAE] rounded-xl outline-none focus:outline-grey-100"
+              className="p-4 w-full bg-[#FAFAFA] border border-[#0000000A] text-[#8E9BAE] rounded-xl outline-none focus:outline-grey-100"
               placeholder="Name"
               name="name"
             />
             <input
-              className="px-4 py-3.5 w-full bg-[#FAFAFA] border border-[#0000000A] text-[#8E9BAE] rounded-xl outline-none focus:outline-grey-100"
+              className="p-4 w-full bg-[#FAFAFA] border border-[#0000000A] text-[#8E9BAE] rounded-xl outline-none focus:outline-grey-100"
               placeholder="Email address"
               type="email"
               name="email"
             />
             <input
-              className="px-4 py-3.5 w-full bg-[#FAFAFA] border border-[#0000000A] text-[#8E9BAE] rounded-xl outline-none focus:outline-grey-100"
+              className="p-4 w-full bg-[#FAFAFA] border border-[#0000000A] text-[#8E9BAE] rounded-xl outline-none focus:outline-grey-100"
               placeholder="Desired services"
               name="service"
             />
             <textarea
               rows={4}
-              className="px-4 py-3.5 w-full bg-[#FAFAFA] border border-[#0000000A] text-[#8E9BAE] rounded-xl outline-none focus:outline-grey-100"
+              className="p-4 w-full bg-[#FAFAFA] border border-[#0000000A] text-[#8E9BAE] rounded-xl outline-none focus:outline-grey-100"
               placeholder="Message"
               name="service"
             />
 
-            <button className="h-16 w-max px-10 lg:w-full bg-primary text-white font-medium font-poppins rounded-xl transition outline-none focus:outline-grey-100">
+            <button className="h-20 xs:h-16 w-full xs:w-max px-10 lg:w-full bg-primary text-white font-medium font-poppins rounded-xl transition outline-none focus:outline-grey-100">
               Submit
             </button>
           </form>

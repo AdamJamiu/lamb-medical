@@ -7,7 +7,7 @@ const RedefineHealthCare = () => {
       style={{
         backgroundImage: "url(/blue-background.png",
       }}
-      className="w-full px-8 sm:px-10 md:px-14 py-28 lg:py-40 xl:py-48 bg-cover bg-no-repeat"
+      className="w-full px-4 sm:px-10 md:px-14 py-28 lg:py-40 xl:py-48 bg-cover bg-no-repeat"
     >
       <div className="w-full max-w-[1500px] grid lg:grid-cols-2 gap-16 sm:gap-20 lg:gap-32 2xl:gap-48">
         <div className="w-full my-auto">
@@ -21,7 +21,7 @@ const RedefineHealthCare = () => {
           </h1>
           <h1
             data-aos="fade-up"
-            className="lg:hidden block text-white font-rubik font-semibold text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-loose"
+            className="lg:hidden block text-white font-rubik font-semibold text-[32px] sm:text-5xl md:text-6xl lg:text-7xl leading-loose"
           >
             Let’s Redefine Healthcare Together
           </h1>
@@ -37,7 +37,7 @@ const RedefineHealthCare = () => {
 
           <div
             data-aos="fade-up"
-            className="flex justify-start items-center gap-5 mt-10 md:mt-16 font-poppins font-semibold"
+            className="xs:flex hidden justify-start items-center gap-5 mt-10 md:mt-16 font-poppins font-semibold"
           >
             <Link href="#">
               <button className="text-white h-20 px-12 md:px-14 rounded-md bg-primary transition hover:opacity-70 sm:text-base text-sm">
@@ -47,6 +47,21 @@ const RedefineHealthCare = () => {
             <Link href="#">
               <button className="bg-white h-20 px-12 md:px-14 rounded-md text-primary transition hover:opacity-70 sm:text-base text-sm">
                 Gift Cards
+              </button>
+            </Link>
+          </div>
+          <div
+            data-aos="fade-up"
+            className="grid grid-cols-2 xs:hidden  items-center gap-5 mt-10 md:mt-16 font-poppins font-semibold"
+          >
+            <Link href="#" className="w-full">
+              <button className="text-white h-20 rounded-md bg-primary transition hover:opacity-70 sm:text-base text-sm w-full">
+                Explore Services
+              </button>
+            </Link>
+            <Link href="#" className="w-full">
+              <button className="bg-white h-20 w-full rounded-md text-primary transition hover:opacity-70 sm:text-base text-sm">
+                Book Now
               </button>
             </Link>
           </div>

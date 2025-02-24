@@ -12,18 +12,20 @@ const ServiceCard = ({ title, description, link, bgImgSrc }: IServices) => {
     >
       <div className="relative z-10 flex h-full flex-col items-start justify-between p-7 font-rubik">
         <div className="w-full">
-          <h1 className="text-xl font-medium leading-snug text-white sm:text-xl md:w-[89%] md:text-2xl lg:text-3xl lg:font-semibold xl:w-[96%] xl:text-4xl 2xl:text-[50px]">
+          <h1 className="font-medium leading-snug text-white md:w-[89%] text-[24px] md:text-2xl lg:text-3xl lg:font-semibold xl:w-[96%] xl:text-4xl 2xl:text-[50px]">
             {title}
           </h1>
 
-          <p className="text-sm font-thin text-white md:mt-5 md:text-base lg:text-[20px] 2xl:mt-2">
+          <p className="text-sm font-thin text-white md:mt-5 md:text-base lg:text-[20px] mt-2">
             {description}
           </p>
         </div>
 
         <Link href={!!link ? link : "#"} className="w-full">
           <div className="flex w-full items-center justify-between gap-2 rounded bg-white px-5 py-4 md:px-7 lg:px-8">
-            <p className="text-base font-semibold md:text-lg">Learn more</p>
+            <p className="text-[21.44px] font-semibold md:text-lg">
+              Learn more
+            </p>
             <svg
               width="40"
               height="39"

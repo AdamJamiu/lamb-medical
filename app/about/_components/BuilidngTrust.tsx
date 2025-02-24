@@ -2,12 +2,12 @@ import Image from "next/image";
 
 const BuilidngTrust = () => {
   return (
-    <section className="h-full w-full py-24 lg:py-32 xl:pb-44 xl:pt-44 px-0 md:px-10">
+    <section className="h-full w-full py-10 lg:py-32 xl:pb-44 xl:pt-44 px-0 md:px-10">
       <div className="w-full">
         <div className="mx-auto w-full max-w-[1000px] p-8 py-14 sm:p-10 md:px-14">
           <h1
             data-aos="fade-up"
-            className="font-rubik text-center text-2xl font-semibold leading-tight text-[#12121299] sm:text-3xl md:text-5xl lg:text-6xl"
+            className="font-rubik text-center text-[32px] font-semibold leading-tight text-[#12121299] sm:text-3xl md:text-5xl lg:text-6xl"
           >
             Building trust through transparency and communication
           </h1>

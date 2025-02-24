@@ -3,7 +3,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState, useEffect } from "react";
-import { IoCall } from "react-icons/io5";
 import { IoMdMenu, IoMdClose } from "react-icons/io";
 import { usePathname } from "next/navigation";
 import clsx from "clsx";
@@ -78,9 +77,9 @@ const Navbar = () => {
           onClick={toggleMenu}
         >
           {menuOpen ? (
-            <IoMdClose className="text-[#8E9BAE] transition" />
+            <IoMdClose className="text-[#3024A9] transition" />
           ) : (
-            <IoMdMenu className="text-[#8E9BAE] transition" />
+            <IoMdMenu className="text-[#3024A9] transition" />
           )}
         </div>
       </div>

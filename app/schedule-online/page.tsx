@@ -8,7 +8,7 @@ const Page = () => {
         alt="lady face care"
         className="min-h-screen w-screen lg:w-[50vw] lg:block hidden"
       />
-      <div className="pt-20 xl:pt-40 pb-10 px-4 md:py-20 md:pl-10 md:pr-36 lg:pr-40 xl:pr-56">
+      <div className="pt-20 xl:pt-40 pb-10 xs:px-4 md:py-20 md:pl-10 md:pr-36 lg:pr-40 xl:pr-56">
         <h1
           data-aos="fade-up"
           className="text-[#161616] font-rubik font-semibold text-2xl md:text-3xl lg:text-[35px] xl:text-[45px] 2xl:text-[48px] w-[90%] md:block hidden"
@@ -31,7 +31,7 @@ const Page = () => {
         </p>
 
         <div data-aos="fade-up" className="mt-10">
-          <form className="w-full space-y-5 xs:space-y-10 font-work_sans">
+          <form className="w-full space-y-8 xs:space-y-10 font-work_sans">
             <div className="w-full">
               <label className="text-[#121212]" htmlFor="name">
                 Your name <span className="text-primary">*</span>
@@ -91,7 +91,7 @@ const Page = () => {
               />
             </div>
 
-            <button className="h-16 w-max px-10 lg:w-full bg-primary text-white font-medium font-poppins rounded-lg transition outline-none focus:outline-grey-100">
+            <button className="h-20 xs:h-16 w-full xs:w-max xs:px-10 lg:w-full bg-primary text-white font-medium font-poppins rounded-lg transition outline-none focus:outline-grey-100">
               Send
             </button>
           </form>

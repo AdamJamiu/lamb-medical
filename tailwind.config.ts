@@ -68,7 +68,9 @@ export default {
     extend: {
       backgroundImage: {
         home_hero: "url('/1.png')",
+        landing_home_hero: "url('/images/landing/1_mobile.png')",
         about_hero: "url('/30.png')",
+        about_hero_mbile: "url('/30_mobile.png')",
         service_hero: "url('/24.png')",
       },
       maxWidth: {

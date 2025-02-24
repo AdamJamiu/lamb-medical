@@ -44,7 +44,7 @@ export const navItems: INavItems[] = [
       { href: "/services/vampirefacelift", label: "Vampire Facelift" },
     ],
   },
-  { href: "/subcriptions", label: "Subscriptions" },
+  { href: "/subcription", label: "Subscription" },
   { href: "/schedule-online", label: "Schedule Online" },
   { href: "/blog", label: "Blog" },
   {

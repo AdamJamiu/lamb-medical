@@ -31,13 +31,13 @@ export default function Home() {
             </h1>
             <h1
               data-aos="fade-up"
-              className="md:hidden block text-[#12121299] font-rubik font-semibold text-xl sm:text-2xl md:text-3xl lg:text-4xl leading-loose"
+              className="md:hidden block text-[#12121299] font-rubik font-semibold text-[32px] md:text-3xl lg:text-4xl leading-snug"
             >
               Empowering Your Journey To Look And Feel Your Best
             </h1>
             <p
               data-aos="fade-up"
-              className="text-[#12121299] mt-6 text-base md:text-lg lg:text-xl font-work_sans"
+              className="text-[#12121299] mt-6 text-[14px] xs:text-lg lg:text-xl font-work_sans"
             >
               Our commitment is to provide a highly personalized healthcare
               experience. From routine checkups to complex medical needs, Lamb

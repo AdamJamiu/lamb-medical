@@ -22,7 +22,7 @@ const OurServices = () => {
       <div className="mx-auto w-full max-w-[1400px] p-5 sm:p-10 md:p-14">
         <h1
           data-aos="fade-up"
-          className="font-rubik text-2xl font-semibold leading-tight text-[#12121299] sm:text-4xl md:text-5xl lg:text-6xl"
+          className="font-rubik text-[32px] font-semibold leading-tight text-[#12121299] sm:text-4xl md:text-5xl lg:text-6xl"
         >
           Our Services
         </h1>
@@ -37,7 +37,7 @@ const OurServices = () => {
         <button
           data-aos="fade-up"
           onClick={() => setIsExpanded((prev) => !prev)}
-          className="font-poppins mt-10 h-20 rounded-md bg-primary px-12 text-sm font-semibold text-white transition hover:opacity-70 sm:text-base md:px-14"
+          className="xs:w-max w-full font-poppins mt-10 h-20 rounded-md bg-primary px-12 text-sm font-semibold text-white transition hover:opacity-70 sm:text-base md:px-14"
         >
           {isExpanded ? "See Less" : "See all services"}
         </button>
