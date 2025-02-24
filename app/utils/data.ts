@@ -445,6 +445,138 @@ export const monalisaTouchFAQs: IFaq[] = [
     content: "",
   },
 ];
+export const laserGenesisFAQs: IFaq[] = [
+  {
+    title: "Who can get laser genesis?",
+    content:
+      "A concierge practice (also called concierge medicine or membership-based healthcare) is a healthcare model where patients pay a monthly or annual retainer fee to a doctor or medical practice in exchange for enhanced, personalized care. This model typically allows for longer appointment times, direct access to physicians, same-day or next-day appointments, and more comprehensive",
+  },
+  {
+    title: "Does it hurt?",
+    content: "",
+  },
+  {
+    title: "How long will this take?",
+    content: "",
+  },
+  {
+    title: "When will I notice results?",
+    content: "",
+  },
+  {
+    title: "How long will my results last?",
+    content: "",
+  },
+  {
+    title: "Are there any side effects?",
+    content: "",
+  },
+];
+export const laserWartRemovalFAQs: IFaq[] = [
+  {
+    title: "WHAT ARE WARTS?",
+    content:
+      "A concierge practice (also called concierge medicine or membership-based healthcare) is a healthcare model where patients pay a monthly or annual retainer fee to a doctor or medical practice in exchange for enhanced, personalized care. This model typically allows for longer appointment times, direct access to physicians, same-day or next-day appointments, and more comprehensive",
+  },
+  {
+    title: "ARE WARTS CONTAGIOUS?",
+    content: "",
+  },
+  {
+    title: "HOW LONG WILL THIS TAKE?",
+    content: "",
+  },
+  {
+    title: "WILL I NEED MORE THAN 1 TREATMENT? ",
+    content: "",
+  },
+  {
+    title: "WHAT SHOULD I EXPECT? ",
+    content: "",
+  },
+  {
+    title: "WHY DOES THIS WORK?",
+    content: "",
+  },
+  {
+    title: "WHAT TYPE OF LASER WILL BE USED?",
+    content: "",
+  },
+];
+export const laserVeinTherapyFAQs: IFaq[] = [
+  {
+    title: "How does Cutera Laser Vein Therapy work?",
+    content:
+      "A concierge practice (also called concierge medicine or membership-based healthcare) is a healthcare model where patients pay a monthly or annual retainer fee to a doctor or medical practice in exchange for enhanced, personalized care. This model typically allows for longer appointment times, direct access to physicians, same-day or next-day appointments, and more comprehensive",
+  },
+  {
+    title: "Who can be treated with the Cutera Laser?",
+    content: "",
+  },
+  {
+    title: "What types of veins can be treated?",
+    content: "",
+  },
+  {
+    title: "How does this compare to Sclerotherapy?",
+    content: "",
+  },
+  {
+    title: "What about blood blisters?",
+    content: "",
+  },
+  {
+    title: "How many treatments will I need?",
+    content: "",
+  },
+  {
+    title: "Do the treatments hurt?",
+    content: "",
+  },
+  {
+    title: "What happens after the treatment?",
+    content: "",
+  },
+  {
+    title: "What are the possible side effects?",
+    content: "",
+  },
+  {
+    title: "Are there any restrictions on my activity after treatment?",
+    content: "",
+  },
+  {
+    title: "When will I see results?",
+    content: "",
+  },
+];
+export const laserNailFungusFAQs: IFaq[] = [
+  {
+    title: "What are the symptoms of nail fungus?",
+    content:
+      "A concierge practice (also called concierge medicine or membership-based healthcare) is a healthcare model where patients pay a monthly or annual retainer fee to a doctor or medical practice in exchange for enhanced, personalized care. This model typically allows for longer appointment times, direct access to physicians, same-day or next-day appointments, and more comprehensive",
+  },
+  {
+    title: "Will laser help me treat onychomycosis?",
+    content: "",
+  },
+  {
+    title: "How long will this take? ",
+    content: "",
+  },
+  {
+    title: "When will I notice results? ",
+    content: "",
+  },
+  {
+    title: "How long will my results last?",
+    content: "",
+  },
+  {
+    title: "Are there any side effects?",
+    content: "",
+  },
+];
 export const sofwaveBodyFAQs: IFaq[] = [
   {
     title: "How does Sofwave™ work?",
