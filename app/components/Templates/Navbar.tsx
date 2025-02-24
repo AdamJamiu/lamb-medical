@@ -79,16 +79,16 @@ const Navbar = () => {
             onClick={toggleMenu}
           >
             {menuOpen ? (
-              <IoMdClose className="text-[#3024A9] transition" />
+              <IoMdClose className="text-[#8E9BAE] transition" />
             ) : (
-              <IoMdMenu className="text-[#3024A9] transition" />
+              <IoMdMenu className="text-[#8E9BAE] transition" />
             )}
           </div>
         </div>
 
         {/* Mobile Navigation Menu */}
         <div
-          className="lg:hidden text-3xl cursor-pointer z-50"
+          className="z-50 cursor-pointer text-3xl lg:hidden"
           onClick={toggleMenu}
         >
           {menuOpen ? (
@@ -96,7 +96,6 @@ const Navbar = () => {
           ) : (
             <IoMdMenu className="text-[#3024A9] transition" />
           )}
-        >
           {/* Close Button */}
           {/* <div
           className="absolute top-6 right-6 text-3xl cursor-pointer"
