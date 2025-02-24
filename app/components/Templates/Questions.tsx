@@ -7,7 +7,7 @@ const Questions = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16">
           <h1
             data-aos="fade-up"
-            className="text-grey-900 font-bold text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-[70px] leading-tight"
+            className="text-grey-900 font-bold text-[32px] sm:text-2xl md:text-3xl lg:text-4xl xl:text-[70px] leading-tight"
           >
             Questions? We've Got The Answers Here For You
           </h1>
@@ -19,13 +19,18 @@ const Questions = () => {
               so here are a few, answered.
             </p>
 
-            <button className="h-16 rounded-xl bg-primary text-white font-poppins mt-8 px-7">
+            <button className="h-20 xs:h-16 rounded-xl bg-primary text-white font-poppins mt-8 px-7 w-full xs:w-max font-semibold">
               Find More FAQs
             </button>
           </div>
         </div>
       </div>
-      <img src="/3.png" alt="3" className="mt-24 w-full" />
+      <img src="/3.png" alt="3" className="mt-24 w-full xs:block hidden" />
+      <img
+        src="/3_mobile.png"
+        alt="3"
+        className="mt-24 w-full xs:hidden block"
+      />
     </section>
   );
 };

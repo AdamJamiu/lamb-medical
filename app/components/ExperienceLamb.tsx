@@ -43,7 +43,7 @@ const ExperienceLamb = () => {
           </h1>
           <h1
             data-aos="fade-up"
-            className="block font-rubik text-xl font-semibold leading-loose text-[#12121299] sm:text-2xl md:hidden md:text-3xl lg:text-4xl"
+            className="block font-rubik text-[32px] font-semibold leading-loose text-[#12121299] sm:text-2xl md:hidden md:text-3xl lg:text-4xl"
           >
             Experience the Lamb Difference
           </h1>
@@ -80,7 +80,7 @@ const ExperienceLamb = () => {
           <button
             data-aos="fade-up"
             onClick={() => setIsExpanded((prev) => !prev)}
-            className="mt-10 h-20 rounded-md bg-primary px-12 font-poppins text-sm font-semibold text-white transition hover:opacity-70 sm:text-base md:px-14"
+            className="mt-10 h-20 w-full xs:w-max rounded-md bg-primary px-12 font-poppins text-sm font-semibold text-white transition hover:opacity-70 sm:text-base md:px-14"
           >
             {isExpanded ? "See Less" : "See all benefits"}
           </button>

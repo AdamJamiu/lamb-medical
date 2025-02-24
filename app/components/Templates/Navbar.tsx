@@ -3,7 +3,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState, useEffect } from "react";
-import { IoCall } from "react-icons/io5";
 import { IoMdMenu, IoMdClose } from "react-icons/io";
 import { usePathname } from "next/navigation";
 import clsx from "clsx";
@@ -89,11 +88,14 @@ const Navbar = () => {
 
         {/* Mobile Navigation Menu */}
         <div
-          className={clsx(
-            "fixed inset-0 flex transform flex-col items-center justify-center gap-8 bg-white text-lg font-medium transition-transform duration-300 lg:hidden",
-            menuOpen ? "translate-x-0" : "translate-x-full",
-          )}
+          className="z-50 cursor-pointer text-3xl lg:hidden"
+          onClick={toggleMenu}
         >
+          {menuOpen ? (
+            <IoMdClose className="text-[#3024A9] transition" />
+          ) : (
+            <IoMdMenu className="text-[#3024A9] transition" />
+          )}
           {/* Close Button */}
           {/* <div
           className="absolute top-6 right-6 text-3xl cursor-pointer"

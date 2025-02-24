@@ -63,3 +63,20 @@ body {
   height: 60px;
   animation: spin 1s linear infinite;
 }
+
+.custom-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #8e9bae;
+  /* Change bullet color */
+  opacity: 0.5;
+  transition: all 0.3s ease;
+}
+
+.custom-pagination .swiper-pagination-bullet-active {
+  background-color: #f1f1f1;
+  /* Change active bullet color */
+  width: 16px;
+  height: 16px;
+  opacity: 1;
+}

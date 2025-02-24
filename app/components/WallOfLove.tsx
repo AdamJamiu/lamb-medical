@@ -9,7 +9,7 @@ const WallOfLove = () => {
     <section className="h-full w-full bg-white py-28 md:pb-32 md:pt-56">
       <h1
         data-aos="fade-up"
-        className="w-full px-5 text-center font-rubik text-3xl font-semibold leading-tight text-[#12121299] sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-[128px]"
+        className="w-full px-5 text-center font-rubik text-[32px] font-semibold leading-tight text-[#12121299] sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-[128px]"
       >
         Wall of love
       </h1>
@@ -25,7 +25,7 @@ const WallOfLove = () => {
           spaceBetween={30}
           breakpoints={{
             320: {
-              slidesPerView: 1,
+              slidesPerView: 1.3,
             },
             640: {
               slidesPerView: 1.6,
