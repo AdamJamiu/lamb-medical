@@ -28,7 +28,7 @@ export default function ConciergeFamily() {
         >
           {conciergeItems.map((item) => (
             <li className="flex items-center gap-[1rem]" key={item.id}>
-              <i className="flex size-[3.2rem] shrink-0 items-center justify-center rounded-full bg-white">
+              <i className="flex size-[3.2rem] shrink-0 items-center justify-center rounded-full bg-white text-grey-300">
                 <CheckIcon />
               </i>
               <span className="font-rubik text-lg font-medium leading-[2rem] text-white">
