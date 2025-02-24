@@ -65,6 +65,6 @@ export const all_services: IServices[] = [
     bgImgSrc: "/23.png",
     description:
       "Be Well Memberships (Both virtual & in clinic offered), Aesthetic Membership (Access & Premium)",
-    link: "",
+    link: "/services/memberships",
   },
 ];

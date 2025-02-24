@@ -29,7 +29,7 @@ export default function WhyChooseUs() {
             key={card.id}
             data-aos="fade-left"
           >
-            <i className="block shrink-0">
+            <i className="block shrink-0 text-grey-300">
               <CheckIcon />
             </i>
             <div className="flex flex-col gap-[0.8rem]">

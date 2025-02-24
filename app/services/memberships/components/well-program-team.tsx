@@ -6,9 +6,9 @@ export default function BeWellProgramTeam() {
   return (
     <Wrapper className="grid gap-[2rem] py-[6rem]">
       <h3 className="font-rubik text-[6.4rem] font-semibold leading-[6rem] text-grey-200">
-        Be Well Program
+        The Be Well Team
       </h3>
-      <p className="text-grey-750 grid gap-8 font-work_sans text-lg font-medium leading-[3.6rem] tracking-[0.02rem] opacity-80">
+      <p className="grid gap-8 font-work_sans text-lg font-medium leading-[3.6rem] tracking-[0.02rem] text-grey-750 opacity-80">
         Lamb Medical is excited to welcome Mollie DeSimone, CRNP, to our care
         team with a focus on the Be Well program. With nearly a decade of
         experience in Bariatric Medicine and Family Medicine, Mollie joins our

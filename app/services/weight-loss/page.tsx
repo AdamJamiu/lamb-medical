@@ -1,14 +1,14 @@
 import { Fragment } from "react";
 import ServicesHero from "../components/services-hero";
 import ServicesTab from "../components/services-tab";
-import BeWellProgram from "./components/well-program";
-import BeWellProgramTeam from "./components/well-program-team";
-import OurServices from "./components/our-services";
-import ServiceImageContentLayout from "../components/service-image-content-layout";
-import WhyChooseUs from "./components/why-choose-us";
-import Transformation from "./components/transformation ";
-import BookNowButton from "../components/book-now-button";
 import ConciergeFamily from "../components/concierge-family";
+import BeWellProgram from "../memberships/components/well-program";
+import BeWellProgramTeam from "../memberships/components/well-program-team";
+import OurServices from "../memberships/components/our-services";
+import WhyChooseUs from "../memberships/components/why-choose-us";
+import Transformation from "../memberships/components/transformation ";
+import VisualConsultations from "./components/visual-consultations";
+import ElectronicCommunication from "./components/electronic-communication";
 
 const weightLossTabItems = [
   { href: "#well-program", label: "Be Well Program" },
@@ -26,38 +26,11 @@ export default function WeightLoss() {
       <BeWellProgram />
       <BeWellProgramTeam />
       <OurServices />
-      <ServiceImageContentLayout
-        image="weight-loss/visual-consultation.png"
-        title="Virtual consultations"
-      >
-        <p className="grid gap-8 font-work_sans text-md font-medium leading-[3.2rem] tracking-[0.02rem] text-grey-750 opacity-80">
-          At Lamb Medical, we believe that true wellness begins from the inside
-          out. That’s why we’re excited to offer virtual consultations tailored
-          to your personal wellness journey. Our program includes the latest
-          innovations in metabolic health and body transformation, such as
-          cutting-edge weight loss injections like Semaglutide and Tirzepatide.
-          With personalized guidance and advanced treatments, we’re here to help
-          you achieve your health goals, from weight management to overall
-          well-being, all from the comfort of your home.
-        </p>
-      </ServiceImageContentLayout>
-
+      <VisualConsultations />
       <WhyChooseUs />
       <Transformation />
       <ConciergeFamily />
-      <ServiceImageContentLayout
-        image="weight-loss/visual-consultaion-3.png"
-        title="Electronic Communication"
-      >
-        <p className="grid gap-8 font-work_sans text-md font-medium leading-[3.2rem] tracking-[0.02rem] text-grey-750 opacity-80">
-          Lamb Medical uses Elation Passport and state-of-the-art electronic
-          medical record that provides a patient portal and provides email
-          communication for test results, routine questions, medication refills,
-          and scheduling. For more information about these communication tools,
-          please click the button below
-        </p>
-        <BookNowButton className="self-start">Learn more</BookNowButton>
-      </ServiceImageContentLayout>
+      <ElectronicCommunication />
     </Fragment>
   );
 }
