@@ -569,6 +569,53 @@ export const platedFAQs: IFaq[] = [
     content: "",
   },
 ];
+export const aviClearFAQs: IFaq[] = [
+  {
+    title: "What is AviClear?",
+    content:
+      "A concierge practice (also called concierge medicine or membership-based healthcare) is a healthcare model where patients pay a monthly or annual retainer fee to a doctor or medical practice in exchange for enhanced, personalized care. This model typically allows for longer appointment times, direct access to physicians, same-day or next-day appointments, and more comprehensive",
+  },
+  {
+    title: "How does AviClear work?",
+    content: "",
+  },
+  {
+    title: "How many treatments are needed?",
+    content: "",
+  },
+  {
+    title: "Is AviClear safe?",
+    content: "",
+  },
+  {
+    title: "Who can receive an AviClear treatment?",
+    content: "",
+  },
+  {
+    title: "Is the treatment comfortable?",
+    content: "",
+  },
+  {
+    title: "How many treatments are needed?",
+    content: "",
+  },
+  {
+    title: "Are there side effects or down time?",
+    content: "",
+  },
+  {
+    title: "Is miraDry safe?",
+    content: "",
+  },
+  {
+    title: "Do i need to come in for a consultation?",
+    content: "",
+  },
+  {
+    title: "Where are you located?",
+    content: "",
+  },
+];
 export const miraDryFAQs: IFaq[] = [
   {
     title: "How does miraDry work?",
@@ -757,5 +804,39 @@ export const conciergeItems = [
   {
     id: 8,
     title: "In Office Testing",
+  },
+];
+
+export const membershipsCard = [
+  {
+    level: 1,
+    title: "Choose one service each month.",
+    service: [
+      "Diamond Glow",
+      "Signature Peel",
+      "Energy shot",
+      "Skin pen face treatment",
+    ],
+    benefits: [
+      "10% off skin care products",
+      "10% off laser treatment packages VIP",
+      "Pricing for tox treatment ($13.50/ unit)",
+    ],
+  },
+  {
+    level: 2,
+    title: "Choose one service each month.",
+    service: [
+      "Diamond Glow",
+      "VI Peel",
+      "Energy shot",
+      "Skin pen treatment w/PRP",
+      "Laser air removal (x-small or small area)",
+    ],
+    benefits: [
+      "10% off skin care products",
+      "15% off laser treatment packages",
+      "VIP Pricing for tox treatment ($13.00/ unit)",
+    ],
   },
 ];
