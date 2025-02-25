@@ -92,7 +92,7 @@ const Navbar = () => {
         {/* Mobile Navigation Menu */}
         {isMobileNavOpen && (
           <div
-            className="z-50 cursor-pointer text-xl h-screen pt-20 lg:hidden overflow-y-auto space-y-5"
+            className="z-50 cursor-pointer text-lg h-screen pt-20 lg:hidden overflow-y-auto space-y-5"
             onClick={toggleMenu}
           >
             {/* {menuOpen ? (
