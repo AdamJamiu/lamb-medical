@@ -22,13 +22,13 @@ export default function Dermaplanning() {
         />
       </figure>
 
-      <p className="text-grey-750 font-work_sans text-lg font-medium leading-[3.6rem] tracking-[0.02rem] opacity-80 py-28">
+      <p className="text-grey-750 font-work_sans text-[14px] xs:text-lg font-medium leading-[3.6rem] tracking-[0.02rem] opacity-80 py-16">
         Benefits of dermaplaning include increasing your skin’s ability to
         absorb products and creating a healthier more radiant appearance. Also,
         fine lines and wrinkles will be diminished. Dermaplaning is a great way
         to prep your skin before a chemical peel.
       </p>
-      <p className="text-grey-750 font-work_sans text-lg font-medium leading-[3.6rem] tracking-[0.02rem] opacity-80 pb-28">
+      <p className="text-grey-750 font-work_sans text-[14px] xs:text-lg font-medium leading-[3.6rem] tracking-[0.02rem] opacity-80 pb-28">
         Dermaplaning will NOT cause hair to grow back darker or thicker nor will
         it cause breakouts. Additionally, dermaplaning is not painful. The
         treatment is performed with a specialized razor and cannot be done at

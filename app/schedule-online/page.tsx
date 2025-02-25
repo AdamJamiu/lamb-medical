@@ -91,7 +91,7 @@ const Page = () => {
               />
             </div>
 
-            <button className="h-20 xs:h-16 w-full xs:w-max xs:px-10 lg:w-full bg-primary text-white font-medium font-poppins rounded-lg transition outline-none focus:outline-grey-100">
+            <button className="h-20 w-full xs:w-max xs:px-10 lg:w-full bg-primary text-white font-medium font-poppins rounded-lg transition outline-none focus:outline-grey-100">
               Send
             </button>
           </form>

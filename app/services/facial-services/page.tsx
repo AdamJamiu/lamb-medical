@@ -58,6 +58,7 @@ export default function FacialServices() {
       <ServicesTab tabItems={facialServicesTabItems} />
       <AquaGold />
       <ServicesFAQ
+        className="px-2 md:px-0"
         title="AquaGold FAQs: Your questions answered"
         description="Curious about AquaGold? Get answers to common questions about how it works, what to expect, and how it can help you feel confident and sweat-free."
         faqs={aquaGoldFAQs}

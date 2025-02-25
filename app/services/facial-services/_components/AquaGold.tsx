@@ -4,7 +4,7 @@ import ServicesIntro from "../../components/services-intro";
 
 export default function AquaGold() {
   return (
-    <Wrapper id="aqua-gold" className="grid gap-[4rem]">
+    <Wrapper id="aqua-gold" className="grid gap-[4rem] pb-16">
       <ServicesIntro
         title="AquaGold"
         description="AQUAGOLD® fine touch™ is the first-of-its kind patented microchannel microinjector that painlessly, effectively, and delicately delivers specials elected therapeutics into the dermis to address a wide range of skin concerns."
@@ -22,7 +22,7 @@ export default function AquaGold() {
         />
       </figure>
 
-      <p className="text-grey-750 font-work_sans text-lg font-medium leading-[3.6rem] tracking-[0.02rem] opacity-80 pb-28 pt-10">
+      <p className="text-grey-750 font-work_sans text-[14px] xs:text-lg font-medium leading-[3.6rem] tracking-[0.02rem] opacity-80 pb-28 pt-10">
         The microchannel screw-like design safely and consistently delivers
         therapeutics at a consistent depth with minimal damage to the dermis,
         targeting all layers of the skin while stimulating collagen and elastin
@@ -52,7 +52,7 @@ export default function AquaGold() {
         />
       </div>
 
-      <p className="text-grey-750 font-work_sans text-lg font-medium leading-[3.6rem] tracking-[0.02rem] opacity-80 pb-28 pt-10">
+      <p className="text-grey-750 font-work_sans text-[14px] xs:text-lg font-medium leading-[3.6rem] tracking-[0.02rem] opacity-80 pb-28 pt-10">
         Specially selected therapeutics for a treatment customized just for you.
         Address a wide range of skin concerns from acne scars and fine lines to
         hyperhydrosis and alopecia. Delicate microchannels thinner than a human
