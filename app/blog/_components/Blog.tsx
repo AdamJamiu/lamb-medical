@@ -2,7 +2,7 @@ import { blogs } from "@/app/data/blog";
 
 const Blog = () => {
   return (
-    <div className="w-full py-10 md:py-28 px-5 2xl:px-10 h-full">
+    <div className="w-full py-10 md:py-28 px-8 lg:px-10 2xl:px-48 h-full">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-x-5 lg:gap-10 gap-y-16 md:gap-y-10 lg:gap-y-14 w-full">
         {blogs.map((item, index) => (
           <div

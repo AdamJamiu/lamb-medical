@@ -38,7 +38,7 @@ const FaqItemButton = ({ item }: { item: IFaq }) => {
   return (
     <div ref={contentRef} className={`${isExpanded ? "" : "pb-8"} w-full pt-5`}>
       <div className="flex w-full items-center justify-between gap-3">
-        <p className="font-rubik text-sm font-medium text-grey-700 md:text-base lg:text-lg">
+        <p className="w-[90%] xs:w-full font-rubik text-[14px] font-medium text-grey-700 md:text-base lg:text-lg">
           {item.title}
         </p>
         <button
