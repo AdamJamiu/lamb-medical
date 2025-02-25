@@ -13,8 +13,8 @@ export default function BookNowButton({
     <button
       {...props}
       className={cn(
-        "flex items-center justify-center rounded-[0.5rem] bg-primary px-[4.1rem] py-[1.2rem] font-poppins text-md font-semibold text-white transition hover:opacity-70",
-        props.className,
+        "w-full xs:w-max flex items-center justify-center rounded-[0.5rem] bg-primary px-[4.1rem] py-[1.2rem] font-poppins text-md font-semibold text-white transition hover:opacity-70",
+        props.className
       )}
     >
       {children}
