@@ -10,7 +10,7 @@ export const all_services: IServices[] = [
     bgImgSrc: "/15.png",
     description:
       "For services like; Diamond glow, Dermaplanning, Peels, AquaGold",
-    link: "",
+    link: "/services/facial-services",
     title: "Facial Services",
   },
   {
