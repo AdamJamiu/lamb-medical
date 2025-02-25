@@ -29,6 +29,7 @@ export const navItems: INavItems[] = [
       { href: "/services/sofwave", label: "Sofwave" },
       { href: "/services/exosomes", label: "Exosomes - (Plated)" },
       { href: "/services/facial-fillers", label: "Facial Fillers" },
+      { href: "/services/facial-services", label: "Facial Services" },
       { href: "/services/laser-services", label: "Laser Services" },
       { href: "/services/diamond-glow", label: "Diamondglow" },
       { href: "/services/sculptra", label: "Sculptra" },

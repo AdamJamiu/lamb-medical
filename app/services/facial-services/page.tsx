@@ -7,6 +7,7 @@ import { aquaGoldFAQs } from "@/app/utils/data";
 import DiamondGlow from "./_components/DiamondGlow";
 import Dermaplanning from "./_components/Dermaplanning";
 import Peels from "./_components/Peels";
+import Image from "next/image";
 
 const facialServicesTabItems = [
   { href: "#aqua-gold", label: "Aqua Gold" },
@@ -18,11 +19,42 @@ const facialServicesTabItems = [
 export default function FacialServices() {
   return (
     <Fragment>
-      <ServicesHero
-        image="facial-services/facial-service-image.png"
-        title="Facial Services"
-        description="Facial services at Lamb Medical are designed to rejuvenate and enhance skin health through advanced treatments like Diamond Glow, dermaplaning, peels, and Aqua Gold. These customized treatments target concerns such as dullness, texture, and hydration, leaving the skin refreshed, radiant, and smooth."
-      />
+      <div className="hidden w-full xs:block">
+        <ServicesHero
+          image="facial-services/facial-service-image.png"
+          title="Facial Services"
+          description="Facial services at Lamb Medical are designed to rejuvenate and enhance skin health through advanced treatments like Diamond Glow, dermaplaning, peels, and Aqua Gold. These customized treatments target concerns such as dullness, texture, and hydration, leaving the skin refreshed, radiant, and smooth."
+        />
+      </div>
+
+      <div className="block w-full xs:hidden py-10 mt-20">
+        <div className="relative size-full" data-aos="fade-right">
+          <img
+            src="/images/facial-services/facial-service-image-mobile.png"
+            alt="facial-service-image-mobile"
+            className="absolute object-cover object-center"
+          />
+        </div>
+
+        <div className="grid space-y-[2.4rem] pr-[4rem] text-white md:w-[65rem] px-8 py-10 mt-10">
+          <h2
+            className="font-rubik text-[32px] font-semibold leading-[3rem] w-full text-center"
+            data-aos="fade-up"
+          >
+            Facial Services
+          </h2>
+          <p
+            className="font-work_sans font-medium leading-[3.5rem] tracking-[0.02em] opacity-80 text-sm text-center"
+            data-aos="fade-left"
+          >
+            Facial services at Lamb Medical are designed to rejuvenate and
+            enhance skin health through advanced treatments like Diamond Glow,
+            dermaplaning, peels, and Aqua Gold. These customized treatments
+            target concerns such as dullness, texture, and hydration, leaving
+            the skin refreshed, radiant, and smooth.
+          </p>
+        </div>
+      </div>
       <ServicesTab tabItems={facialServicesTabItems} />
       <AquaGold />
       <ServicesFAQ
