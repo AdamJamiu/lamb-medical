@@ -109,7 +109,7 @@ const Navbar = () => {
                   onClick={() => {
                     if (!item.subItems) {
                       toggleMenu();
-                      // closeServices();
+                      setIsMobileNavOpen(false);
                     }
                   }}
                 >

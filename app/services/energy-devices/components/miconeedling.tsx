@@ -25,7 +25,7 @@ export default function Miconeedling() {
         />
       </figure>
       <p
-        className="text-grey-750 font-work_sans text-lg font-medium leading-[4rem] tracking-[0.02em] text-opacity-80"
+        className="text-grey-750 font-work_sans text-[14px] xs:text-lg font-medium leading-[4rem] tracking-[0.02em] text-opacity-80"
         data-aos="fade-right"
       >
         At Lamb Medical we utilize the Endymed Pure system which is far superior
@@ -37,29 +37,47 @@ export default function Miconeedling() {
         connects the needle tips under the skin creating tissue remodeling just
         where you need it. 
       </p>
-      <ServicesAfterEffects className="grid-cols-2">
-        <div className="relative col-span-full h-full" data-aos="fade-up">
+      <ServicesAfterEffects className="xs:grid-cols-2 ">
+        <div
+          className="relative col-span-1 xs:col-span-full h-full"
+          data-aos="fade-up"
+        >
           <Image
             src="/images/energy-devices/miconeedling-3.png"
             alt=""
             fill
-            className="absolute object-cover"
+            className="absolute object-cover inset-0 xs:block hidden"
+          />
+          <img
+            src="/images/energy-devices/miconeedling-3-mobile.png"
+            alt="miconeedling-3"
+            className="object-cover xs:hidden block"
           />
         </div>
         <div className="relative h-full" data-aos="fade-left">
           <Image
             src="/images/energy-devices/miconeedling-1.png"
-            alt=""
+            alt="miconeedling"
             fill
-            className="absolute object-cover"
+            className="absolute object-cover inset-0 xs:block hidden"
+          />
+          <img
+            src="/images/energy-devices/miconeedling-1-mobile.png"
+            alt="miconeedling"
+            className="object-cover"
           />
         </div>
         <div className="relative h-full" data-aos="fade-right">
           <Image
             src="/images/energy-devices/miconeedling-2.png"
-            alt=""
+            alt="miconeedling"
             fill
-            className="absolute object-cover"
+            className="absolute object-cover inset-0 xs:block hidden"
+          />
+          <img
+            src="/images/energy-devices/miconeedling-2-mobile.png"
+            alt="miconeedling"
+            className="object-cover inset-0"
           />
         </div>
       </ServicesAfterEffects>

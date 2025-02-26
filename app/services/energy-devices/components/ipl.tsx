@@ -13,7 +13,7 @@ export default function Sofwave() {
         description="IPL (Intense Pulsed Light) treatment uses light energy to reduce skin pigmentation, minimize redness, treat sun damage, reduce fine lines, and improve skin texture by targeting and rejuvenating specific areas. The LimeLight IPL PhotoFacial is a non-invasive approach to skin revitalization using Cutera’s LimeLight. The procedure offers the advantage of improving skin tone and surface imperfections associated with aging and photodamage. "
       />
       <p
-        className="text-grey-750 font-work_sans text-lg font-medium leading-[4rem] tracking-[0.02em] text-opacity-80"
+        className="text-grey-750 font-work_sans text-[14px] xs:text-lg font-medium leading-[4rem] tracking-[0.02em] text-opacity-80"
         data-aos="fade-right"
       >
         The LimeLight PhotoFacial is ideal for any part of your face, neck and

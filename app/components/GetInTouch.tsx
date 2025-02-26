@@ -109,7 +109,7 @@ const GetInTouch = () => {
               name="service"
             />
 
-            <button className="h-20 xs:h-16 w-full xs:w-max px-10 lg:w-full bg-primary text-white font-medium font-poppins rounded-xl transition outline-none focus:outline-grey-100">
+            <button className="h-20 w-full xs:w-max px-10 lg:w-full bg-primary text-white font-medium font-poppins rounded-xl transition outline-none focus:outline-grey-100">
               Submit
             </button>
           </form>

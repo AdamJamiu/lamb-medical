@@ -10,7 +10,7 @@ export default function Dermaplanning() {
         description="Dermaplaning is a manual exfoliation technique the removes surface debris with a custom dermaplaning blade. Come in and experience dermaplaning as a stand alone service or add dermaplaning to a facial or chemical peel. This treatment involves using a sterile surgical blade to remove dead skin and “peach fuzz” from the complexion. This treatment is a form of physical exfoliation and also allows for skincare to penetrate deeper and for makeup to apply more smoothly. This is great as a standalone service or in conjunction with other aesthetic services. There is no downtime with dermaplaning."
       />
       <figure
-        className="relative h-[62.3rem] overflow-hidden rounded"
+        className="relative h-[62.3rem] overflow-hidden rounded xs:block hidden"
         data-aos="zoom-in"
       >
         <Image
@@ -21,6 +21,12 @@ export default function Dermaplanning() {
           className="object-cover"
         />
       </figure>
+      <img
+        data-aos="zoom-in"
+        src="/images/facial-services/dermaplanning-mobile.png"
+        alt="dermaplanning"
+        className="object-cover xs:hidden block"
+      />
 
       <p className="text-grey-750 font-work_sans text-[14px] xs:text-lg font-medium leading-[3.6rem] tracking-[0.02rem] opacity-80 py-16">
         Benefits of dermaplaning include increasing your skin’s ability to

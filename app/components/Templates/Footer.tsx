@@ -7,13 +7,17 @@ const Footer = () => {
       <Wrapper>
         <div className="grid w-full gap-5 gap-y-10 sm:grid-cols-2 sm:gap-7 md:grid-cols-3 lg:gap-10 xl:gap-20">
           <div className="w-full">
-            <img src="/lamb-medical-footer-logo.svg" alt="lamb medical logo" />
-            <p className="mt-7 text-sm font-medium text-white lg:text-base xl:text-lg">
+            <img
+              src="/lamb-medical-footer-logo.svg"
+              className="w-72 md:w-auto"
+              alt="lamb medical logo"
+            />
+            <p className="mt-7 text-[14px] font-medium text-white lg:text-base xl:text-lg">
               Your health is your most valuable asset. At Lamb Medicals, we
               treat it as such.
             </p>
 
-            <p className="mt-8 text-sm font-medium md:text-base lg:text-lg">
+            <p className="mt-8 text-[16px] font-semibold md:text-base lg:text-lg">
               Socials
             </p>
 
@@ -51,7 +55,7 @@ const Footer = () => {
           </div>
 
           {/* Company */}
-          <div className="w-full pl-0 text-sm md:text-base lg:pl-10 lg:text-lg xl:pl-20 2xl:pl-28">
+          <div className="w-full pl-0 text-[16px] md:text-base lg:pl-10 lg:text-lg xl:pl-20 2xl:pl-28">
             <h2 className="font-semibold">Company</h2>
 
             <div className="mt-6 flex w-full flex-col space-y-4">
@@ -74,7 +78,7 @@ const Footer = () => {
           </div>
 
           {/* Contact */}
-          <div className="w-full pl-0 text-sm md:text-base lg:pl-10 lg:text-lg xl:pl-20">
+          <div className="w-full pl-0 text-[16px] md:text-base lg:pl-10 lg:text-lg xl:pl-20">
             <h2 className="font-semibold">Contact</h2>
 
             <div className="mt-6 flex w-full flex-col space-y-4">
@@ -90,7 +94,7 @@ const Footer = () => {
         </div>
 
         <div className="mt-10 w-full border-t border-white pb-10 pt-16 text-center">
-          <p className="text-xs text-white sm:text-sm lg:text-base">
+          <p className="text-[16px] text-white sm:text-sm lg:text-base">
             Copyright © 2025 Lamb Medical all rights reserved
           </p>
         </div>

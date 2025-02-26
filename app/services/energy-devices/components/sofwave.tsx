@@ -23,7 +23,7 @@ export default function Sofwave() {
         benefits={sofwaveBenefits}
       />
       <figure
-        className="relative h-[62.3rem] overflow-hidden rounded"
+        className="relative h-[62.3rem] overflow-hidden rounded xs:block hidden"
         data-aos="zoom-in"
       >
         <Image
@@ -34,12 +34,20 @@ export default function Sofwave() {
           className="object-cover"
         />
       </figure>
+
+      <img
+        data-aos="zoom-in"
+        src="/images/energy-devices/softwave-mobile.png"
+        alt="softwave-mobile"
+        className="object-cover xs:hidden block"
+      />
+
       <ServicesBenefits
         title="HIGH Patient Satisfaction"
         benefits={sofwaveSatisfactions}
       />
       <p
-        className="text-grey-750 font-work_sans text-md font-medium leading-[4rem] tracking-[0.02em] text-opacity-80"
+        className="text-grey-750 font-work_sans text-[14px] xs:text-md font-medium leading-[4rem] tracking-[0.02em] text-opacity-80"
         data-aos="fade-right"
       >
         Sofwave™is an FDA cleared, non-invasive treatment of fine lines and
@@ -51,7 +59,7 @@ export default function Sofwave() {
         collagen and elastin which leads to the reduction in fine lines and
         wrinkles.
       </p>
-      <ServicesAfterEffects className="grid-cols-2">
+      <ServicesAfterEffects className="xs:grid-cols-2">
         <div className="relative h-full" data-aos="fade-left">
           <Image
             src="/images/energy-devices/sofwave-before-and-after-1.png"

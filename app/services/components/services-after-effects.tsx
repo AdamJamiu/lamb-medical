@@ -14,8 +14,8 @@ export default function ServicesAfterEffects({
   return (
     <figure
       className={cn(
-        "grid grid-cols-[1.5fr_2fr] grid-rows-[42.4rem_48.9rem] gap-[2.4rem]",
-        className,
+        "flex flex-col xs:grid xs:grid-cols-[1.5fr_2fr] grid-rows-[42.4rem_48.9rem] gap-[2.4rem]",
+        className
       )}
     >
       {!!title && (
