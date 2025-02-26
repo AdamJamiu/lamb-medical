@@ -10,7 +10,7 @@ export default function AquaGold() {
         description="AQUAGOLD® fine touch™ is the first-of-its kind patented microchannel microinjector that painlessly, effectively, and delicately delivers specials elected therapeutics into the dermis to address a wide range of skin concerns."
       />
       <figure
-        className="relative h-[62.3rem] overflow-hidden rounded"
+        className="relative h-[62.3rem] overflow-hidden rounded hidden xs:block"
         data-aos="zoom-in"
       >
         <Image
@@ -21,6 +21,11 @@ export default function AquaGold() {
           className="object-cover"
         />
       </figure>
+      <img
+        src="/images/facial-services/aquagold-mobile.png"
+        alt="aquagold-mobile"
+        className="object-cover xs:hidden block"
+      />
 
       <p className="text-grey-750 font-work_sans text-[14px] xs:text-lg font-medium leading-[3.6rem] tracking-[0.02rem] opacity-80 pb-28 pt-10">
         The microchannel screw-like design safely and consistently delivers

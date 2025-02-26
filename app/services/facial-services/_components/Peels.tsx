@@ -10,7 +10,7 @@ export default function Peels() {
         description="Chemical peels are a fast and effective way to exfoliate dry or damaged skin allowing new, smoother, healthier skin to surface. Your skin will gain a healthier and younger appearance. Peels help to minimize fine wrinkles, improve discoloration and age spots, and improve the overall texture of your skin. We understand that sometimes decision making is complicated, and we will help you choose the best option for your skin needs."
       />
       <figure
-        className="relative h-[62.3rem] overflow-hidden rounded"
+        className="relative h-[62.3rem] overflow-hidden rounded xs:block hidden"
         data-aos="zoom-in"
       >
         <Image
@@ -21,6 +21,12 @@ export default function Peels() {
           className="object-cover"
         />
       </figure>
+      <img
+        data-aos="zoom-in"
+        src="/images/facial-services/chemical-peel-mobile.png"
+        alt="chemical-peel"
+        className="object-cover xs:hidden block"
+      />
 
       <ul className="w-full list-disc pl-14 md:px-10">
         <li className="text-[32px] text-[#12121299]">
@@ -46,7 +52,7 @@ export default function Peels() {
       </p>
 
       <figure
-        className="relative h-[62.3rem] overflow-hidden rounded"
+        className="relative h-[62.3rem] overflow-hidden rounded xs:block hidden"
         data-aos="zoom-in"
       >
         <Image
@@ -62,6 +68,12 @@ export default function Peels() {
           role="presentation"
           className="md:hidden block"
         />
+        <img
+          data-aos="zoom-in"
+          src="/images/facial-services/vi-peels-mobile.png"
+          alt="vi-peels-mobile"
+          className="xs:hidden block"
+        />
       </figure>
 
       <ul className="w-full list-disc pl-14 md:px-10">
@@ -76,7 +88,7 @@ export default function Peels() {
       </ul>
 
       <figure
-        className="relative h-[62.3rem] overflow-hidden rounded"
+        className="relative xs:h-[62.3rem] overflow-hidden rounded"
         data-aos="zoom-in"
       >
         <Image
@@ -99,7 +111,7 @@ export default function Peels() {
         description="With our re-gen formula boasting amino acids, peptides, and plant based ingredients; Elleebana Lash Lift strengthens, nourishes, and protects lashes. Elleebana Lash Lift provides a sensational, natural enhancement to your eyelashes.   "
       />
       <figure
-        className="relative h-[62.3rem] overflow-hidden rounded"
+        className="relative h-[62.3rem] overflow-hidden rounded md:block hidden"
         data-aos="zoom-in"
       >
         <Image
@@ -107,14 +119,15 @@ export default function Peels() {
           alt="ellana"
           role="presentation"
           fill
-          className="object-cover md:block hidden"
-        />
-        <img
-          src="/images/facial-services/ellana-mobile.png"
-          alt="ellana lash lift"
-          className="object-cover md:hidden block"
+          className="object-cover"
         />
       </figure>
+      <img
+        data-aos="zoom-in"
+        src="/images/facial-services/ellana-mobile.png"
+        alt="ellana lash lift"
+        className="object-cover md:hidden block"
+      />
 
       <div className="w-full space-y-[2rem]">
         <div className="space-y-[2rem] pt-[2rem]" data-aos="fade-left">
