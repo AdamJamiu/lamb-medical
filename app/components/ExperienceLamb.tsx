@@ -23,9 +23,9 @@ const ExperienceLamb = () => {
   }, [isExpanded]);
 
   return (
-    <Wrapper className="w-full px-5 py-28 sm:p-10 md:px-14 md:py-48">
+    <Wrapper className="w-full px-5 xs:py-28 sm:p-10 md:px-14 md:py-48">
       <div className="grid w-full max-w-[1500px] gap-10 lg:grid-cols-2 lg:gap-20 xl:gap-32 2xl:gap-40">
-        <div data-aos="fade-up">
+        <div data-aos="fade-up" className="xs:block hidden">
           <Image
             src="/25.png"
             width={1000}

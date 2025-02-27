@@ -63,25 +63,40 @@ export default function Sofwave() {
         <div className="relative h-full" data-aos="fade-left">
           <Image
             src="/images/energy-devices/sofwave-before-and-after-1.png"
-            alt=""
+            alt="sofwave-before-and-after-1"
             fill
-            className="absolute object-cover"
+            className="absolute object-cover xs:block hidden"
+          />
+          <img
+            src="/images/energy-devices/sofwave-before-and-after-1.png"
+            alt=""
+            className="object-cover block xs:hidden"
           />
         </div>
         <div className="relative h-full" data-aos="fade-right">
           <Image
             src="/images/energy-devices/sofwave-before-and-after-2.png"
-            alt=""
+            alt="sofwave-before-and-after-2"
             fill
-            className="absolute object-cover"
+            className="absolute object-cover xs:block hidden"
+          />
+          <img
+            src="/images/energy-devices/sofwave-before-and-after-2.png"
+            alt="sofwave-before-and-after"
+            className="object-cover block xs:hidden"
           />
         </div>
         <div className="relative h-full" data-aos="fade-left">
           <Image
             src="/images/energy-devices/sofwave-before-and-after-3.png"
-            alt=""
+            alt="sofwave-before-and-after-3"
             fill
-            className="absolute object-cover"
+            className="absolute object-cover xs:block hidden"
+          />
+          <img
+            src="/images/energy-devices/sofwave-before-and-after-3.png"
+            alt="sofwave-before-and-after-3"
+            className="object-cover block xs:hidden"
           />
         </div>
         <div className="relative h-full" data-aos="fade-right">
@@ -89,7 +104,12 @@ export default function Sofwave() {
             src="/images/energy-devices/sofwave-before-and-after-4.png"
             alt=""
             fill
-            className="absolute object-cover"
+            className="absolute object-cover xs:block hidden"
+          />
+          <img
+            src="/images/energy-devices/sofwave-before-and-after-4.png"
+            alt="sofwave-before-and-after-4"
+            className="object-cover block xs:hidden"
           />
         </div>
       </ServicesAfterEffects>

@@ -119,12 +119,12 @@ const Navbar = () => {
                   >
                     <Link
                       href={item.href}
-                      className={clsx(
-                        "transition hover:text-primary",
-                        pathname === item.href
+                      className={`${
+                        pathname === item.href ||
+                        pathname.startsWith(item.href + "/")
                           ? "font-semibold text-primary"
                           : "text-[#8E9BAE]"
-                      )}
+                      } transition hover:text-primary`}
                     >
                       {item.label}
                     </Link>
