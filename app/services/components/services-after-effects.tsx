@@ -20,7 +20,7 @@ export default function ServicesAfterEffects({
     >
       {!!title && (
         <figcaption
-          className="text-grey-800 col-span-full text-center font-rubik text-[3.8rem] font-semibold leading-[4rem]"
+          className="text-grey-800 col-span-full text-center font-rubik text-[32px] xs:text-[3.8rem] font-semibold leading-[4rem]"
           data-aos="fade-left"
         >
           {title}

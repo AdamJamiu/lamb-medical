@@ -20,7 +20,7 @@ export default function Home() {
       <HeroSection />
 
       {/* Empowering your look */}
-      <Wrapper className="w-full p-5 sm:p-10 md:p-14">
+      <Wrapper className="w-full px-5 sm:p-10 md:p-14">
         <div className="w-full max-w-[1500px] grid lg:grid-cols-2 gap-10 lg:gap-20 xl:gap-32 2xl:gap-48">
           <div className="w-full my-auto">
             <h1

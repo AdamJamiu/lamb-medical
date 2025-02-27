@@ -171,7 +171,7 @@ const MobileSwipper = () => {
             key={index}
             className="py-4 w-[548px] h-[548px] relative overflow-hidden"
           >
-            <div className="absolute bottom-16 right-10 left-10 bg-white py-4 px-3 rounded-lg z-10 flex justify-start items-center gap-0">
+            <div className="absolute bottom-16 right-12 left-12 bg-white py-4 px-3 rounded-lg z-10 flex justify-start items-center gap-0">
               <div className="w-full">
                 <p className="font-rubik font-medium text-[16px]">
                   {item.name}
@@ -182,8 +182,8 @@ const MobileSwipper = () => {
               </div>
 
               <svg
-                width="40"
-                height="39"
+                width="35"
+                height="35"
                 viewBox="0 0 55 54"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -206,7 +206,7 @@ const MobileSwipper = () => {
               </svg>
             </div>
             <img
-              className="w-full h-[408px]"
+              className="w-full h-[349px] object-contain"
               src={item.imgSrc}
               alt={item.name}
             />

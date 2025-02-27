@@ -34,7 +34,7 @@ export const navItems: INavItems[] = [
       },
 
       {
-        href: "/services/wellness-weight-loss",
+        href: "/services/weight-loss",
         label: "Wellness & Weight Loss",
       },
       {

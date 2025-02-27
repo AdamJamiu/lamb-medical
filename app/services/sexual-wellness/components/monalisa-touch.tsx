@@ -12,18 +12,23 @@ export default function MonalisaTouch() {
         title="MonaLisa Touch"
         description="We proudly serve women with the revolutionary MonaLisa Touch™ laser treatment. Designed to enhance feminine beauty and address concerns such as menopausal symptoms, vaginal dryness, and discomfort during intimacy, our skilled team is dedicated to providing transformative experiences tailored to each individual’s needs.As women age, the natural decline in collagen and estrogen levels can lead to unwelcome symptoms associated with menopause. Among the most common are vaginal dryness and discomfort during intimacy. Additionally, women may notice an increased susceptibility to urinary tract infections (UTIs), bladder infections, and incontinence."
       />
-      <ServicesAfterEffects className="grid-cols-1 grid-rows-[58rem]">
-        <div className="relative h-full" data-aos="fade-left">
+      <ServicesAfterEffects className="grid-cols-1 xs:grid-rows-[58rem]">
+        <div className="relative h-full col-span-full" data-aos="fade-left">
           <Image
             src="/images/sexual-wellness/monalisa-touch.png"
-            alt=""
+            alt="monalisa-touch"
             fill
-            className="absolute object-top"
+            className="absolute object-top xs:block hidden"
+          />
+          <img
+            src="/images/sexual-wellness/monalisa-touch-mbile.png"
+            alt="monalisa-touch"
+            className="object-top block xs:hidden"
           />
         </div>
       </ServicesAfterEffects>
       <p
-        className="text-grey-750 font-work_sans text-lg font-medium leading-[4rem] tracking-[0.02em] text-opacity-80"
+        className="text-grey-750 font-work_sans text-[14px] xs:text-lg font-medium leading-[4rem] tracking-[0.02em] text-opacity-80"
         data-aos="fade-right"
       >
         Our clinic offers the MonaLisa Touch™ laser treatment as a solution to

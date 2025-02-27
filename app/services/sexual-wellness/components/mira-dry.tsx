@@ -27,13 +27,18 @@ export default function MiraDry() {
         }
       />
 
-      <ServicesAfterEffects className="grid-cols-1 grid-rows-[52rem]">
-        <div className="relative h-full" data-aos="fade-right">
+      <ServicesAfterEffects className="grid-cols-1 xs:grid-rows-[52rem]">
+        <div className="relative h-full col-span-full" data-aos="fade-right">
           <Image
             src="/images/sexual-wellness/mira-dry.png"
-            alt=""
+            alt="mira dry"
             fill
-            className="absolute object-cover"
+            className="absolute object-cover hidden xs:block"
+          />
+          <img
+            src="/images/sexual-wellness/mira-dry-mobile.png"
+            alt="mira dry"
+            className="xs:hidden block object-cover"
           />
         </div>
       </ServicesAfterEffects>
