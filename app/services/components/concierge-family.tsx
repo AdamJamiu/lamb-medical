@@ -4,16 +4,16 @@ import { conciergeItems } from "@/app/utils/data";
 
 export default function ConciergeFamily() {
   return (
-    <section className="bg-primary">
-      <Wrapper className="grid place-content-center gap-[2rem] py-[4rem] text-center">
+    <section id="concierge-medicine" className="bg-primary">
+      <Wrapper className="grid place-content-center gap-[2rem] py-[4rem] md:py-[7rem] text-center">
         <h2
-          className="font-rubik xs:block hidden text-[32px] xs:text-[5.6rem] font-bold leading-[6.5rem] tracking-[0.02em] text-white"
+          className="font-rubik xs:block hidden text-[30px] xs:text-[5.6rem] font-bold leading-[6.5rem] tracking-[0.02em] text-white"
           data-aos="fade-left"
         >
           Concierge Family <br /> Medicine Membership
         </h2>
         <h2
-          className="font-rubik xs:hidden block text-[32px] font-bold leading-[6.5rem] tracking-[0.02em] text-white w-full"
+          className="font-rubik xs:hidden block text-[32px] font-bold leading-[4.5rem] tracking-[0.02em] text-white w-full"
           data-aos="fade-left"
         >
           Concierge Family Medicine Membership
@@ -29,7 +29,7 @@ export default function ConciergeFamily() {
         </p>
 
         <ul
-          className="grid md:grid-cols-2 gap-x-[10rem] gap-y-[4rem] py-[2rem]"
+          className="grid md:grid-cols-2 gap-x-[10rem] gap-y-[4rem] py-[2rem] mt-11 mx-auto w-full"
           data-aos="fade-left"
         >
           {conciergeItems.map((item) => (

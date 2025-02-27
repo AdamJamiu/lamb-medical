@@ -31,7 +31,7 @@ export default function LaserGenesis() {
         }
       />
       <p
-        className="font-work_sans text-lg font-medium leading-[4rem] tracking-[0.02em] text-grey-750 text-opacity-80"
+        className="font-work_sans xs:text-lg font-medium leading-[4rem] tracking-[0.02em] text-grey-750 text-opacity-80"
         data-aos="fade-right"
       >
         As we age, collagen levels in skin start to deplete naturally which

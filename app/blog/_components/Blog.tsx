@@ -17,7 +17,7 @@ const Blog = () => {
                   className="w-full h-full rounded-md"
                 />
               </div>
-              <p className="text-grey-750 font-medium text-base md:text-lg lg:text-[20px] mt-5 font-rubik">
+              <p className="text-grey-750 font-medium text-[16px] md:text-lg lg:text-[20px] mt-5 font-rubik">
                 {item.title}
               </p>
 

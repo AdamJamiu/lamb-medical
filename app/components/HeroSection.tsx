@@ -1,43 +1,12 @@
-"use client";
-
-import React, { useState } from "react";
 import Link from "next/link";
 
 const HeroSection = () => {
-  const [phone, setPhone] = useState("");
-  const [loading, setLoading] = useState(false);
-
-  //   e.preventDefault();
-
-  //   setLoading(true);
-
-  //   emailjs
-  //     .send(
-  //       "service_6gs5319",
-  //       "template_0lzto0f",
-  //       { phone },
-  //       "apQJg2DtjcCfWOzGP"
-  //     )
-  //     .then(
-  //       (response) => {
-  //         console.log("SUCCESS!", response.status, response.text);
-  //         setLoading(false);
-  //         setPhone("");
-  //         toast.success("Request sent successfully!");
-  //       },
-  //       (error) => {
-  //         console.log("FAILED...", error);
-  //         setLoading(false);
-  //       }
-  //     );
-  // };
   return (
     <section className="relative bg-landing_home_hero xs:bg-home_hero min-h-screen h-full bg-no-repeat xs:bg-top md:bg-cover flex flex-col xs:justify-center items-center mt-32 xs:mt-0">
-      {/* <div className="absolute inset-0 bg-black opacity-5"></div> */}
       <div className="relative z-10 flex flex-col items-center gap-4 lg:gap-7 xs:mt-8 md:mt-0 md:py-10 py-20 justify-center text-center container max-w-[900px]">
         <h1
           data-aos="fade-up"
-          className="xl:text-[70px] md:text-6xl xs:text-5xl text-4xl text-white font-bold"
+          className="xl:text-[70px] md:text-6xl xs:text-5xl text-[32px] text-white font-bold"
         >
           Lamb Medical Aesthetics
         </h1>
