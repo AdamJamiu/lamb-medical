@@ -41,8 +41,8 @@ export default function Transformation() {
           />
           <img
             src="/images/weight-loss/visual-consultation-2-mobile.png"
-            alt=""
-            className="block xs:hidden"
+            alt="visual-consultation-2-mobile"
+            className="block xs:hidden mt-16"
           />
         </div>
       </figure>

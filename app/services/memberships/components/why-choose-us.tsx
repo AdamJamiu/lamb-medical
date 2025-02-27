@@ -4,7 +4,7 @@ import { CheckIcon } from "@/app/icons";
 
 export default function WhyChooseUs() {
   return (
-    <Wrapper className="grid xl:grid-cols-[58rem_1fr] md:grid-rows-[38rem] items-start gap-[8rem] pb-[8rem]">
+    <Wrapper className="grid xl:grid-cols-[58rem_1fr] md:grid-rows-[38rem] items-start gap-20 xs:gap-[8rem] pb-[8rem] xs:pt-0 pt-10">
       <div className="flex w-full flex-col gap-[2.4rem] px-2">
         <h3
           className="font-rubik text-[32px] xs:text-[4.8rem] font-semibold leading-[6.2rem] text-grey-200"

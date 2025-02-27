@@ -20,7 +20,7 @@ export default function ServiceImageContentLayout({
   return (
     <Wrapper
       className={cn(
-        "grid xl:grid-cols-[58rem_1fr] grid-rows-[38rem] items-center gap-6 md:gap-[13rem] py-[3rem] xs:py-[8rem]",
+        "grid xl:grid-cols-[58rem_1fr] grid-rows-[38rem] items-center xs:gap-6 md:gap-[13rem] py-[3rem] xs:py-[8rem]",
         className
       )}
     >

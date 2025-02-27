@@ -6,7 +6,7 @@ const Page = () => {
       <img
         src="/48.png"
         alt="lady face care"
-        className="min-h-screen w-screen lg:w-[50vw] lg:block hidden"
+        className="h-full w-screen lg:w-[50vw] lg:block hidden"
       />
       <div className="pt-20 xl:pt-40 pb-10 xs:px-4 md:py-20 md:pl-10 md:pr-36 lg:pr-40 xl:pr-56">
         <h1

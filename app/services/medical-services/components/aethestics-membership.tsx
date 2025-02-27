@@ -5,7 +5,7 @@ import { membershipsCard } from "@/app/utils/data";
 export default function AethesticsMembership() {
   return (
     <Wrapper className="flex flex-col items-center gap-[4rem] py-[5rem]">
-      <h3 className="font-rubik text-[4.8rem] font-semibold leading-[4rem] text-grey-200">
+      <h3 className="font-rubik text-[32px] xs:text-[4.8rem] font-semibold leading-[4rem] text-grey-200">
         Lamb Aesthetic Membership
       </h3>
 
