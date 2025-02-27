@@ -66,7 +66,7 @@ const RedefineHealthCare = () => {
             </Link>
           </div>
         </div>
-        <div data-aos="fade-up">
+        <div data-aos="fade-up" className="xs:block hidden">
           <Image
             src="/31.png"
             width={1000}

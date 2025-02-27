@@ -5,8 +5,9 @@ export default function VisualConsultations() {
     <ServiceImageContentLayout
       image="weight-loss/visual-consultation.png"
       title="Virtual consultations"
+      imageMobile="weight-loss/visual-consultation-mobile.png"
     >
-      <p className="grid gap-8 font-work_sans text-md font-medium leading-[3.2rem] tracking-[0.02rem] text-grey-750 opacity-80">
+      <p className="grid gap-8 font-work_sans text-[14px] xs:text-md font-medium leading-[3.2rem] tracking-[0.02rem] text-grey-750 opacity-80">
         At Lamb Medical, we believe that true wellness begins from the inside
         out. That’s why we’re excited to offer virtual consultations tailored to
         your personal wellness journey. Our program includes the latest

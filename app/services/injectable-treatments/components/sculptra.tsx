@@ -27,28 +27,43 @@ export default function Sculptra() {
         title="Before/After Photos"
         className="grid-cols-1 grid-rows-none [&>figcaption]:text-left"
       >
-        <div className="relative h-[60rem]" data-aos="fade-right">
+        <div className="relative xs:h-[60rem]" data-aos="fade-right">
           <Image
             src="/images/injectable-treatments/sculptra-1.png"
-            alt=""
+            alt="sculptra-1"
             fill
             className="absolute object-top"
           />
+          <img
+            src="/images/injectable-treatments/sculptra-1.png"
+            alt="sculptra 1"
+            className=" object-top xs:hidden block"
+          />
         </div>
-        <div className="relative h-[60rem]" data-aos="fade-right">
+        <div className="relative xs:h-[60rem]" data-aos="fade-right">
           <Image
             src="/images/injectable-treatments/sculptra-2.png"
             alt=""
             fill
-            className="absolute object-top"
+            className="absolute object-top xs:block hidden"
+          />
+          <img
+            src="/images/injectable-treatments/sculptra-2.png"
+            alt="sculptra"
+            className="object-top xs:hidden block"
           />
         </div>
-        <div className="relative h-[60rem]" data-aos="fade-right">
+        <div className="relative xs:h-[60rem]" data-aos="fade-right">
           <Image
             src="/images/injectable-treatments/sculptra-3.png"
             alt=""
             fill
-            className="absolute object-top"
+            className="absolute object-top xs:block hidden"
+          />
+          <img
+            src="/images/injectable-treatments/sculptra-3.png"
+            alt="sculptra"
+            className="object-top xs:hidden block"
           />
         </div>
       </ServicesAfterEffects>

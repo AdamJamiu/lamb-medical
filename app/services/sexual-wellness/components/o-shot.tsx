@@ -25,7 +25,7 @@ export default function OShot() {
       />
       <ServicesAfterEffects className="grid-cols-1 grid-rows-1">
         <div
-          className="relative h-[50.3rem] overflow-hidden rounded"
+          className="relative h-[50.3rem] overflow-hidden rounded col-span-2"
           data-aos="fade-left"
         >
           <Image

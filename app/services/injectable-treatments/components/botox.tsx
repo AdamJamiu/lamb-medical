@@ -76,15 +76,20 @@ export default function Botox() {
         className="grid-cols-1 grid-rows-1"
       >
         <div
-          className="relative h-[50.3rem] overflow-hidden rounded"
+          className="relative xs:h-[50.3rem] overflow-hidden rounded col-span-2"
           data-aos="fade-left"
         >
+          <img
+            src="/images/injectable-treatments/injectable-treatments-before-and-after-mobile-3.png"
+            alt="Injectable treatments before and after mobile"
+            className="object-cover object-top xs:hidden block"
+          />
           <Image
             src="/images/injectable-treatments/injectable-treatments-before-and-after-3.png"
             alt=""
             role="presentation"
             fill
-            className="object-cover object-top"
+            className="object-cover object-top xs:block hidden"
           />
         </div>
       </ServicesAfterEffects>
@@ -93,15 +98,20 @@ export default function Botox() {
         className="grid-cols-1 grid-rows-1"
       >
         <div
-          className="relative h-[50.3rem] overflow-hidden rounded"
+          className="relative xs:h-[50.3rem] overflow-hidden rounded col-span-2"
           data-aos="fade-right"
         >
+          <img
+            src="/images/injectable-treatments/injectable-treatments-before-and-after-mobile-4.png"
+            alt="injectable treatments before and after"
+            className="object-cover xs:hidden block"
+          />
           <Image
             src="/images/injectable-treatments/injectable-treatments-before-and-after-4.png"
             alt=""
             role="presentation"
             fill
-            className="object-cover object-top"
+            className="object-cover object-top xs:block hidden"
           />
         </div>
       </ServicesAfterEffects>

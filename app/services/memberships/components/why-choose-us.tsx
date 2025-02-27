@@ -4,16 +4,16 @@ import { CheckIcon } from "@/app/icons";
 
 export default function WhyChooseUs() {
   return (
-    <Wrapper className="grid grid-cols-[58rem_1fr] grid-rows-[38rem] items-start gap-[8rem] pb-[8rem]">
-      <div className="flex w-full flex-col gap-[2.4rem]">
+    <Wrapper className="grid xl:grid-cols-[58rem_1fr] md:grid-rows-[38rem] items-start gap-[8rem] pb-[8rem]">
+      <div className="flex w-full flex-col gap-[2.4rem] px-2">
         <h3
-          className="font-rubik text-[4.8rem] font-semibold leading-[6.2rem] text-grey-200"
+          className="font-rubik text-[32px] xs:text-[4.8rem] font-semibold leading-[6.2rem] text-grey-200"
           data-aos="fade-right"
         >
           Why Choose Our Virtual Wellness Program?
         </h3>
         <p
-          className="grid gap-8 font-work_sans text-md font-medium leading-[3.2rem] tracking-[0.02rem] text-grey-750 opacity-80"
+          className="grid gap-8 font-work_sans text-[14px] xs:text-md font-medium leading-[3.2rem] tracking-[0.02rem] text-grey-750 opacity-80"
           data-aos="fade-up"
         >
           This isn’t just weight loss; it’s a complete lifestyle transformation
@@ -22,14 +22,14 @@ export default function WhyChooseUs() {
           unique goals and helps you achieve lasting vitality and health
         </p>
       </div>
-      <ul className="grid grid-cols-2 gap-[2rem]">
+      <ul className="grid grid-cols-1 lg:grid-cols-2 gap-[2rem] w-full">
         {whyChooseUsCard.map((card) => (
           <article
             className="flex items-start gap-[0.8rem]"
             key={card.id}
             data-aos="fade-left"
           >
-            <i className="block shrink-0 text-grey-300">
+            <i className="block md:shrink-0 text-grey-300">
               <CheckIcon />
             </i>
             <div className="flex flex-col gap-[0.8rem]">
