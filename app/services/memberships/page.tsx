@@ -28,14 +28,12 @@ export default function Memberships() {
       </div>
 
       <div className="w-full xs:hidden py-10 mt-20 relative h-screen flex flex-col justify-start items-start">
-        {/* <div className="" data-aos="fade-right"> */}
         <img
           data-aos="fade-right"
           src="/images/memberships/membership-mobile.png"
           alt="memberships"
           className="absolute inset-0 h-screen object-cover object-center"
         />
-        {/* </div> */}
 
         <div className="grid space-y-[2.4rem] pr-[4rem] text-white md:w-[65rem] px-8 py-36">
           <h2

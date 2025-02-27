@@ -17,7 +17,7 @@ export const navItems: INavItems[] = [
   { href: "/about", label: "About" },
   {
     href: "/services",
-    label: "Service",
+    label: "Services",
     subItems: [
       // { href: "/services/injectables", label: "Injectables" },
       // { href: "/services/daxxify", label: "Daxxify" },
