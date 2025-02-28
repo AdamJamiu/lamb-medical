@@ -42,17 +42,33 @@ export default function LaserGenesis() {
         uneven texture, rosacea spots and sun damage making it a complete
         rejuvenation system.
       </p>
-      <ServicesAfterEffects className="grid-cols-1 grid-rows-[50rem_52rem] gap-[2rem]">
-        <div className="relative h-full" data-aos="fade-left">
+      <ServicesAfterEffects className="grid-cols-1 grid-rows-[50rem_52rem] gap-2 xs:gap-[2rem]">
+        <div className="relative h-full col-span-full" data-aos="fade-left">
           <Image
             src="/images/medical-services/medical-services-before-and-after-1.png"
             alt=""
             fill
             role="presentation"
-            className="absolute object-top"
+            className="absolute object-top hidden xs:block"
+          />
+          <img
+            src="/images/medical-services/medical-services-before-and-after-1.png"
+            alt=""
+            className="xs:hidden block"
           />
         </div>
-        <div className="relative h-full" data-aos="fade-left">
+        <div data-aos="fade-left" className="relative w-full xs:hidden block">
+          <img
+            src="/images/medical-services/medical-services-before-1.png"
+            alt=""
+            className="w-full"
+          />
+          <h2 className="font-semibold text-white absolute top-[13%] right-[40%] text-[24px] xs:text-[47.54px] font-rubik">
+            Before
+          </h2>
+        </div>
+
+        <div className="relative h-full col-span-full" data-aos="fade-left">
           <Image
             src="/images/medical-services/medical-services-before-and-after-2.png"
             alt=""
@@ -61,7 +77,33 @@ export default function LaserGenesis() {
             className="absolute object-top"
           />
         </div>
-        <div className="relative col-span-full h-full" data-aos="fade-left">
+        <div data-aos="fade-left" className="relative w-full xs:hidden block">
+          <img
+            src="/images/medical-services/medical-services-after-1.png"
+            alt=""
+            className="w-full"
+          />
+          <h2 className="font-semibold text-white absolute top-[13%] right-[40%] text-[24px] xs:text-[47.54px] font-rubik">
+            After
+          </h2>
+        </div>
+        <div data-aos="fade-left" className="relative w-full xs:hidden block">
+          <img
+            src="/images/medical-services/medical-services-after-3-mobile.png"
+            alt=""
+            className="w-full"
+          />
+          <h2 className="font-semibold text-white absolute top-[13%] left-[20%] text-[21px] xs:text-[47.54px] font-rubik">
+            Before
+          </h2>
+          <h2 className="font-semibold text-white absolute top-[13%] right-[20%] text-[21px] xs:text-[47.54px] font-rubik">
+            After
+          </h2>
+        </div>
+        <div
+          className="relative col-span-full h-full xs:block hidden"
+          data-aos="fade-left"
+        >
           <Image
             src="/images/medical-services/medical-services-before-and-after-3.png"
             alt=""

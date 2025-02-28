@@ -18,7 +18,12 @@ export default function Exosomes() {
             src="/images/skincare-products/skincare-products-3.png"
             alt=""
             fill
-            className="absolute object-top"
+            className="absolute object-top xs:block hidden"
+          />
+          <img
+            src="/images/skincare-products/skincare-products-3.png"
+            alt=""
+            className="xs:hidden"
           />
         </div>
         <div className="relative h-full" data-aos="fade-left">
@@ -26,7 +31,12 @@ export default function Exosomes() {
             src="/images/skincare-products/skincare-products-4.png"
             alt=""
             fill
-            className="absolute object-top"
+            className="absolute object-top xs:block hidden"
+          />
+          <img
+            src="/images/skincare-products/skincare-products-4.png"
+            alt=""
+            className="xs:hidden block"
           />
         </div>
       </ServicesAfterEffects>
