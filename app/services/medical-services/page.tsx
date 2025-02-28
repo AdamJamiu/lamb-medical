@@ -31,7 +31,7 @@ export default function MedicalServices() {
         <img
           src="/images/body-treatments/body-treatments-cover-mobile.png"
           alt="facial-service-image-mobile"
-          className="absolute inset-0 h-screen object-cover object-center"
+          className="absolute inset-0 h-[90vh] object-cover object-center"
         />
         {/* </div> */}
 

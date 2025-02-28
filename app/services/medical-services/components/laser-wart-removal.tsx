@@ -27,7 +27,12 @@ export default function LaserWartRemoval() {
             alt=""
             fill
             role="presentation"
-            className="absolute object-top"
+            className="absolute object-top xs:block hidden"
+          />
+          <img
+            src="/images/medical-services/medical-services-before-and-after-3.png"
+            alt=""
+            className="xs:hidden block"
           />
         </div>
       </ServicesAfterEffects>

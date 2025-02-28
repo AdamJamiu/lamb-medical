@@ -26,7 +26,12 @@ export default function LaserVeinTherapy() {
             alt=""
             fill
             role="presentation"
-            className="absolute object-top"
+            className="absolute object-top xs:block hidden"
+          />
+          <img
+            src="/images/medical-services/medical-services-before-and-after-4.png"
+            alt=""
+            className="xs:hidden block"
           />
         </div>
         <div className="relative col-span-full h-full" data-aos="fade-right">
@@ -35,7 +40,12 @@ export default function LaserVeinTherapy() {
             alt=""
             fill
             role="presentation"
-            className="absolute object-top"
+            className="absolute object-top xs:block hidden"
+          />
+          <img
+            src="/images/medical-services/medical-services-before-and-after-5.png"
+            alt=""
+            className="xs:hidden block"
           />
         </div>
       </ServicesAfterEffects>

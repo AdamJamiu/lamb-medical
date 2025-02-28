@@ -20,16 +20,22 @@ export default function EmsculptNeo() {
       />
       <ServicesBenefits title="Key Benefits" benefits={emsculptNeoBenefits} />
       <ServicesAfterEffects className="grid-cols-1 grid-rows-[48rem]">
-        <div className="relative h-full" data-aos="fade-left">
+        <div className="relative h-full col-span-full" data-aos="fade-left">
           <Image
             src="/images/body-treatments/body-treatments-1.png"
-            alt=""
+            alt="body-treatments-1"
             fill
-            className="absolute object-top"
+            className="absolute object-top xs:block hidden"
+          />
+          <img
+            src="/images/body-treatments/body-treatments-1-mobile.png"
+            alt="body-treatments-1"
+            className="xs:hidden block object-cover"
           />
         </div>
       </ServicesAfterEffects>
       <ServicesFAQ
+        className="py-10"
         title="Emsculpt Neo FAQs: Your questions answered"
         description="Curious about Emsculpt Neo? Get answers to common questions about how it works, what to expect, and how it can help you feel confident"
         faqs={emsculptNeoFAQs}

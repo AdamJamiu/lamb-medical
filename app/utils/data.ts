@@ -972,3 +972,27 @@ export const membershipsCard = [
     ],
   },
 ];
+
+export const vampireWingLiftFAQs: IFaq[] = [
+  {
+    title: "What is the Vampire Wing Lift?",
+    content:
+      "A concierge practice (also called concierge medicine or membership-based healthcare) is a healthcare model where patients pay a monthly or annual retainer fee to a doctor or medical practice in exchange for enhanced, personalized care. This model typically allows for longer appointment times, direct access to physicians, same-day or next-day appointments, and more comprehensive",
+  },
+  {
+    title: "How Does the Vampire Wing Lift Work?",
+    content: "",
+  },
+  {
+    title: "Benefits of the Vampire Wing Lift?",
+    content: "",
+  },
+  {
+    title: "Who is a Good Candidate for the Vampire Wing Lift?",
+    content: "",
+  },
+  {
+    title: "What to Expect During and After the Procedure?",
+    content: "",
+  },
+];

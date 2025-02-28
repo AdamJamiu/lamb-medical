@@ -30,12 +30,17 @@ export default function Latisse() {
         }
       />
       <ServicesAfterEffects className="grid-cols-1 grid-rows-[56rem] gap-[4rem]">
-        <div className="relative h-full" data-aos="fade-left">
+        <div className="relative h-full col-span-full" data-aos="fade-left">
           <Image
             src="/images/skincare-products/skincare-products-5.png"
             alt=""
             fill
-            className="absolute object-top"
+            className="absolute object-top xs:block hidden"
+          />
+          <img
+            src="/images/skincare-products/skincare-products-5.png"
+            alt=""
+            className="xs:hidden"
           />
         </div>
       </ServicesAfterEffects>
@@ -44,12 +49,17 @@ export default function Latisse() {
         benefits={latisseBenefits}
       />
       <ServicesAfterEffects className="grid-cols-1 grid-rows-[56rem] gap-[4rem]">
-        <div className="relative h-full" data-aos="fade-left">
+        <div className="relative h-full col-span-full" data-aos="fade-left">
           <Image
             src="/images/skincare-products/skincare-products-6.png"
             alt=""
             fill
-            className="absolute object-top"
+            className="absolute object-top xs:block hidden"
+          />
+          <img
+            src="/images/skincare-products/skincare-products-6.png"
+            alt=""
+            className="xs:hidden block"
           />
         </div>
       </ServicesAfterEffects>

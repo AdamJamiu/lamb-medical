@@ -25,7 +25,7 @@ export default function OShot() {
       />
       <ServicesAfterEffects className="grid-cols-1 grid-rows-1">
         <div
-          className="relative h-[50.3rem] overflow-hidden rounded col-span-2"
+          className="relative xs:h-[50.3rem] overflow-hidden rounded col-span-2"
           data-aos="fade-left"
         >
           <Image
@@ -33,7 +33,12 @@ export default function OShot() {
             alt=""
             role="presentation"
             fill
-            className="object-cover object-top"
+            className="object-cover object-top xs:block hidden"
+          />
+          <img
+            src="/images/sexual-wellness/o-short-mobile.png"
+            alt=""
+            className="object-cover xs:hidden block"
           />
         </div>
       </ServicesAfterEffects>

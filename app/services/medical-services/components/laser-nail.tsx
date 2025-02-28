@@ -27,7 +27,12 @@ export default function LaserNailFungus() {
             alt=""
             fill
             role="presentation"
-            className="absolute object-top"
+            className="absolute object-top xs:block hidden"
+          />
+          <img
+            src="/images/medical-services/medical-services-before-and-after-6.png"
+            alt=""
+            className="xs:hidden block"
           />
         </div>
         <div className="relative h-full" data-aos="fade-right">
@@ -36,7 +41,12 @@ export default function LaserNailFungus() {
             alt=""
             fill
             role="presentation"
-            className="absolute object-top"
+            className="absolute object-top xs:block hidden"
+          />
+          <img
+            src="/images/medical-services/medical-services-before-and-after-7.png"
+            alt=""
+            className="xs:hidden block"
           />
         </div>
         <div className="relative h-full" data-aos="fade-right">
@@ -45,7 +55,12 @@ export default function LaserNailFungus() {
             alt=""
             fill
             role="presentation"
-            className="absolute object-top"
+            className="absolute object-top xs:block hidden"
+          />
+          <img
+            src="/images/medical-services/medical-services-before-and-after-8.png"
+            alt=""
+            className="xs:hidden block"
           />
         </div>
       </ServicesAfterEffects>
