@@ -68,11 +68,17 @@ export default function Sofwave() {
             className="absolute object-cover xs:block hidden"
           />
           <img
-            src="/images/energy-devices/sofwave-before-and-after-1.png"
+            src="/images/energy-devices/sofwave-before-and-after-1-2.png"
             alt=""
             className="object-cover block xs:hidden"
           />
         </div>
+        <img
+          data-aos="zoom-in"
+          src="/images/energy-devices/softwave-mobile.png"
+          alt="softwave-mobile"
+          className="object-cover xs:hidden block"
+        />
         <div className="relative h-full" data-aos="fade-right">
           <Image
             src="/images/energy-devices/sofwave-before-and-after-2.png"
@@ -80,11 +86,11 @@ export default function Sofwave() {
             fill
             className="absolute object-cover xs:block hidden"
           />
-          <img
+          {/* <img
             src="/images/energy-devices/sofwave-before-and-after-2.png"
             alt="sofwave-before-and-after"
             className="object-cover block xs:hidden"
-          />
+          /> */}
         </div>
         <div className="relative h-full" data-aos="fade-left">
           <Image

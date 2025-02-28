@@ -19,16 +19,16 @@ export default function BodyTreatments() {
           description="Lamb Medical offers advanced body contouring and muscle tightening treatments like Sofwave Body and Kybella to sculpt and define targeted areas. These non-invasive solutions help reduce stubborn fat, improve skin elasticity, and enhance muscle tone for a firmer, more contoured appearance."
         />
       </div>
-      <div className="w-full xs:hidden py-10 mt-20 relative h-screen flex flex-col justify-start items-start">
+      <div className="w-full xs:hidden py-10 mt-20 relative h-[90vh] xs:h-screen flex flex-col justify-start items-start">
         {/* <div className="relative size-full" data-aos="fade-right"> */}
         <img
           src="/images/body-treatments/body-treatments-cover-mobile.png"
           alt="facial-service-image-mobile"
-          className="absolute inset-0 h-screen object-cover object-center"
+          className="absolute inset-0 h-[85vh] object-cover object-center"
         />
         {/* </div> */}
 
-        <div className="grid space-y-[2.4rem] pr-[4rem] text-white md:w-[65rem] px-8 py-36">
+        <div className="grid space-y-[2.4rem] pr-[4rem] text-white md:w-[65rem] px-8 pt-36">
           <h2
             className="font-rubik text-[32px] font-semibold leading-[3rem] w-full text-center"
             data-aos="fade-up"

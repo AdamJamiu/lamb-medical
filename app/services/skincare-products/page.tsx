@@ -30,7 +30,7 @@ export default function SkinCareProducts() {
 
         <div className="grid space-y-[2.4rem] pr-[4rem] text-white md:w-[65rem] px-8 py-36">
           <h2
-            className="font-rubik text-[32px] font-semibold xs:leading-[3rem] w-full text-center"
+            className="font-rubik text-[32px] font-semibold lead xs:leading-[3rem] w-full text-center"
             data-aos="fade-up"
           >
             Skin Care Products

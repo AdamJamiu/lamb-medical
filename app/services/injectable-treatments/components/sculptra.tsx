@@ -14,12 +14,17 @@ export default function Sculptra() {
       />
 
       <ServicesAfterEffects className="grid-cols-1 grid-rows-[50rem]">
-        <div className="relative h-full" data-aos="fade-right">
+        <div className="relative h-full col-span-full" data-aos="fade-right">
           <Image
             src="/images/injectable-treatments/sculptra.png"
             alt=""
             fill
-            className="absolute object-cover"
+            className="absolute object-cover xs:block hidden"
+          />
+          <img
+            src="/images/injectable-treatments/sculptra.png"
+            alt="sculptra"
+            className="xs:hidden block object-cover "
           />
         </div>
       </ServicesAfterEffects>
@@ -27,7 +32,10 @@ export default function Sculptra() {
         title="Before/After Photos"
         className="grid-cols-1 grid-rows-none [&>figcaption]:text-left"
       >
-        <div className="relative xs:h-[60rem]" data-aos="fade-right">
+        <div
+          className="relative xs:h-[60rem] col-span-full"
+          data-aos="fade-right"
+        >
           <Image
             src="/images/injectable-treatments/sculptra-1.png"
             alt="sculptra-1"
@@ -40,7 +48,10 @@ export default function Sculptra() {
             className=" object-top xs:hidden block"
           />
         </div>
-        <div className="relative xs:h-[60rem]" data-aos="fade-right">
+        <div
+          className="relative xs:h-[60rem] col-span-full"
+          data-aos="fade-right"
+        >
           <Image
             src="/images/injectable-treatments/sculptra-2.png"
             alt=""
@@ -53,7 +64,10 @@ export default function Sculptra() {
             className="object-top xs:hidden block"
           />
         </div>
-        <div className="relative xs:h-[60rem]" data-aos="fade-right">
+        <div
+          className="relative xs:h-[60rem] col-span-full"
+          data-aos="fade-right"
+        >
           <Image
             src="/images/injectable-treatments/sculptra-3.png"
             alt=""
