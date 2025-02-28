@@ -51,7 +51,7 @@ const ExperienceLamb = () => {
             data-aos="fade-up"
             className="mt-6 font-work_sans text-base text-[#12121299] md:text-lg lg:text-xl"
           >
-            Here’s what we can do for you at Lamb Meidcal
+            Here’s what we can do for you at Lamb Medical
           </p>
 
           <div
