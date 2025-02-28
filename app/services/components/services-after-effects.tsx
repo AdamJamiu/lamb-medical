@@ -4,12 +4,14 @@ interface ServicesAfterEffectsProps {
   children: React.ReactNode;
   className?: string;
   title?: string;
+  hideTitleOnMobile?: boolean;
 }
 
 export default function ServicesAfterEffects({
   children,
   className,
   title,
+  hideTitleOnMobile,
 }: ServicesAfterEffectsProps) {
   return (
     <figure
@@ -20,7 +22,7 @@ export default function ServicesAfterEffects({
     >
       {!!title && (
         <figcaption
-          className="text-grey-800 col-span-full text-center font-rubik text-[32px] xs:text-[3.8rem] font-semibold leading-[4rem]"
+          className={`${hideTitleOnMobile ? "hidden xs:block" : ""} text-grey-800 col-span-full text-center font-rubik text-[24px] xs:text-[3.8rem] font-semibold leading-[4rem]`}
           data-aos="fade-left"
         >
           {title}

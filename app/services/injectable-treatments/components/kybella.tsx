@@ -12,16 +12,21 @@ export default function Kybella() {
         title="Kybella (Double chin)"
         description="Kybella is the first and only FDA approved injectable treatment of double chin. Kybella works by breaking down and destroyong the fat cells under the chin. Once they are destroyed, they will not return."
       />
-      <ServicesAfterEffects className="grid-cols-1 grid-rows-[80rem]">
+      <ServicesAfterEffects className="xs:grid-cols-1 xs:grid-rows-[80rem]">
         <div
-          className="relative h-full overflow-hidden rounded-md"
+          className="relative h-full overflow-hidden rounded-md col-span-full"
           data-aos="fade-right"
         >
           <Image
             src="/images/injectable-treatments/Kybella.png"
             alt=""
             fill
-            className="absolute object-cover"
+            className="hidden xs:block absolute object-cover"
+          />
+          <img
+            src="/images/injectable-treatments/Kybella.png"
+            alt=""
+            className="xs:hidden block object-cover"
           />
         </div>
       </ServicesAfterEffects>

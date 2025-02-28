@@ -30,6 +30,11 @@ export default function Sofwave() {
             fill
             className="absolute object-cover"
           />
+          <img
+            src="/images/energy-devices/ipl-before-and-after-1.png"
+            alt="ipl-before-and-after"
+            className="xs:hidden block object-cover"
+          />
         </div>
         <div className="relative h-full" data-aos="fade-right">
           <Image
@@ -37,6 +42,11 @@ export default function Sofwave() {
             alt=""
             fill
             className="absolute object-cover"
+          />
+          <img
+            src="/images/energy-devices/ipl-before-and-after-2.png"
+            alt="ipl-before-and-after-2"
+            className="xs:hidden block object-cover"
           />
         </div>
       </ServicesAfterEffects>

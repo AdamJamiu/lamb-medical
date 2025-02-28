@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Transformation() {
   return (
-    <Wrapper className="grid w-full lg:grid-cols-[58rem_1fr] xs:gap-[8rem] pb-[8rem]">
+    <Wrapper className="grid w-full lg:grid-cols-[58rem_1fr] xs:gap-[8rem] pb-[10rem]">
       <div className="flex w-full flex-col gap-[2.4rem]">
         <h3
           className="font-rubik text-[32px] xs:text-[4.8rem] font-semibold leading-[6.2rem] text-grey-200"
@@ -20,13 +20,16 @@ export default function Transformation() {
           those considering membership, please send an email indicating your
           interest through our “Get in Touch” form below
         </p>
-        <BookNowButton className="self-start" data-aos="fade-up">
+        <BookNowButton
+          className="self-start hidden xs:block"
+          data-aos="fade-up"
+        >
           Get Touch
         </BookNowButton>
       </div>
 
       <figure
-        className="relative flex lg:size-full xl:justify-end"
+        className="relative xs:flex lg:size-full xl:justify-end"
         data-aos="fade-left"
       >
         <div
@@ -45,6 +48,9 @@ export default function Transformation() {
             className="block xs:hidden mt-16"
           />
         </div>
+        <BookNowButton className="self-start mt-10" data-aos="fade-up">
+          Get Touch
+        </BookNowButton>
       </figure>
     </Wrapper>
   );

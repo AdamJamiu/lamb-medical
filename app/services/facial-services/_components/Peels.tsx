@@ -52,7 +52,7 @@ export default function Peels() {
       </p>
 
       <figure
-        className="relative h-[62.3rem] overflow-hidden rounded xs:block hidden"
+        className="relative xs:h-[62.3rem] overflow-hidden rounded"
         data-aos="zoom-in"
       >
         <Image
@@ -62,12 +62,7 @@ export default function Peels() {
           fill
           className="object-cover hidden md:block"
         />
-        <img
-          src="/images/facial-services/vi-peels-mobile.png"
-          alt="vi-peels-mobile"
-          role="presentation"
-          className="md:hidden block"
-        />
+
         <img
           data-aos="zoom-in"
           src="/images/facial-services/vi-peels-mobile.png"

@@ -39,7 +39,7 @@ export default function Miconeedling() {
       </p>
       <ServicesAfterEffects className="xs:grid-cols-2 ">
         <div
-          className="relative col-span-1 xs:col-span-full h-full"
+          className="relative col-span-1 xs:col-span-full xs:h-full"
           data-aos="fade-up"
         >
           <Image
@@ -53,6 +53,12 @@ export default function Miconeedling() {
             alt="miconeedling-3"
             className="object-cover xs:hidden block"
           />
+          <h2 className="font-semibold text-white absolute top-[50%] xs:top-[20%] left-[20%] text-[24px] xs:text-[47.54px] font-rubik">
+            Before
+          </h2>
+          <h2 className="font-semibold text-white absolute top-[50%] xs:top-[20%] right-[20%] text-[24px] xs:text-[47.54px] font-rubik">
+            After
+          </h2>
         </div>
         <div className="relative h-full" data-aos="fade-left">
           <Image
@@ -66,6 +72,9 @@ export default function Miconeedling() {
             alt="miconeedling"
             className="object-cover"
           />
+          <h2 className="xs:hidden block font-semibold text-white absolute top-[40%] xs:top-[20%] left-[45%] text-[24px] xs:text-[47.54px] font-rubik">
+            Before
+          </h2>
         </div>
         <div className="relative h-full" data-aos="fade-right">
           <Image
@@ -79,6 +88,9 @@ export default function Miconeedling() {
             alt="miconeedling"
             className="object-cover inset-0"
           />
+          <h2 className="xs:hidden block font-semibold text-white absolute top-[40%] xs:top-[45%] right-[45%] text-[24px] xs:text-[47.54px] font-rubik">
+            After
+          </h2>
         </div>
       </ServicesAfterEffects>
       <ServicesFAQ

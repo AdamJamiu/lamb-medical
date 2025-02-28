@@ -7,7 +7,7 @@ import { botoxFAQs } from "@/app/utils/data";
 
 export default function Botox() {
   return (
-    <Wrapper id="botox" className="grid gap-[4rem]">
+    <Wrapper id="botox" className="grid gap-[2rem] xs:gap-[4rem]">
       <ServicesIntro
         title="Botox & Dysport"
         description={
@@ -73,6 +73,7 @@ export default function Botox() {
       </ServicesAfterEffects>
       <ServicesAfterEffects
         title="Frown Lines"
+        hideTitleOnMobile
         className="grid-cols-1 grid-rows-1"
       >
         <div
@@ -91,9 +92,16 @@ export default function Botox() {
             fill
             className="object-cover object-top xs:block hidden"
           />
+          <h2 className="xs:hidden block font-semibold text-white absolute top-[20%] left-[20%] text-[24px] xs:text-[47.54px] font-rubik">
+            Before
+          </h2>
+          <h2 className="xs:hidden block font-semibold text-white absolute top-[20%] right-[20%] text-[24px] xs:text-[47.54px] font-rubik">
+            After
+          </h2>
         </div>
       </ServicesAfterEffects>
       <ServicesAfterEffects
+        hideTitleOnMobile={true}
         title="Crow’s Feet"
         className="grid-cols-1 grid-rows-1"
       >
@@ -113,6 +121,12 @@ export default function Botox() {
             fill
             className="object-cover object-top xs:block hidden"
           />
+          <h2 className="xs:hidden block font-semibold text-white absolute top-[50%] xs:top-[20%] left-[20%] text-[24px] xs:text-[47.54px] font-rubik">
+            Before
+          </h2>
+          <h2 className="xs:hidden block font-semibold text-white absolute top-[50%] xs:top-[20%] right-[20%] text-[24px] xs:text-[47.54px] font-rubik">
+            After
+          </h2>
         </div>
       </ServicesAfterEffects>
       <ServicesFAQ
